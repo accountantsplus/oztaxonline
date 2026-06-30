@@ -1,0 +1,34 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-06-30 02:30:24 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 02:55:03 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 03:01:00 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:05:29 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:12:50 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:13:01 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 03:13:38 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:14:33 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:24:28 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:26:27 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 03:29:36 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:33:59 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:34:46 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:41:42 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:42:56 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 03:59:44 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 04:02:21 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 04:02:43 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 04:05:29 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 04:09:04 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 04:09:49 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 04:12:11 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 05:28:47 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 06:19:04 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 06:20:38 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 06:31:30 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 06:32:46 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-06-30 08:09:42 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 09:01:59 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 09:02:39 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 09:02:45 --> Could not find the language line "zip_code"
+ERROR - 2019-06-30 23:26:52 --> Could not find the language line "zip_code"

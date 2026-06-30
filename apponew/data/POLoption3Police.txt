@@ -1,0 +1,12 @@
+PoliceRecruit:Police Recruit
+SnrConstable:Snr Constable
+1stConstable:First Constable
+Constable:Constable
+LeadSnrConstable:Leading Snr Constable
+Sergeant:Sergeant
+SnrSergeant:Snr Sergeant
+Inspector:Inspector
+Superintendent:Superintendent
+HigherRank:Higher Rank
+Rank:Rank
+Other:Other

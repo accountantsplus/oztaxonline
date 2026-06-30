@@ -1,0 +1,5 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-04-21 06:39:54 --> Severity: error --> Exception: Too few arguments to function Customers_Model::add(), 1 passed in /home/accounta/public_html/police/appo/application/controllers/Appointments.php on line 547 and exactly 2 expected /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2021-04-21 06:40:02 --> Severity: error --> Exception: Too few arguments to function Customers_Model::add(), 1 passed in /home/accounta/public_html/police/appo/application/controllers/Appointments.php on line 547 and exactly 2 expected /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2021-04-21 06:40:12 --> Severity: error --> Exception: Too few arguments to function Customers_Model::add(), 1 passed in /home/accounta/public_html/police/appo/application/controllers/Appointments.php on line 547 and exactly 2 expected /home/accounta/public_html/police/appo/application/models/Customers_model.php 34

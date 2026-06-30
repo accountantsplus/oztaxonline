@@ -1,0 +1,22 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-05-20 00:12:36 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 05:48:27 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 05:54:33 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 05:54:33 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 05:54:33 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:03:38 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:04:27 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:04:27 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:04:27 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:04:46 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:04:48 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:05:11 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:05:11 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:05:11 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 06:05:38 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 10:11:01 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 10:11:19 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 10:12:24 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 13:33:04 --> Could not find the language line "zip_code"
+ERROR - 2019-05-20 13:37:31 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34

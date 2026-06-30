@@ -1,0 +1,5 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-06-18 08:14:27 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 105
+ERROR - 2021-06-18 08:14:27 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 106
+ERROR - 2021-06-18 08:16:49 --> Severity: error --> Exception: Too few arguments to function Customers_Model::add(), 1 passed in /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/controllers/Backend_api.php on line 278 and exactly 2 expected /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/models/Customers_model.php 34

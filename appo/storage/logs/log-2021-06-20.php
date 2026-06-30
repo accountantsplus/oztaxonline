@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-06-20 02:28:30 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 105
+ERROR - 2021-06-20 02:28:30 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 106
+ERROR - 2021-06-20 02:28:33 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 105
+ERROR - 2021-06-20 02:28:33 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 106
+ERROR - 2021-06-20 02:28:33 --> Could not find the language line "zip_code"
+ERROR - 2021-06-20 02:30:59 --> Severity: error --> Exception: Too few arguments to function Customers_Model::add(), 1 passed in /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/controllers/Backend_api.php on line 823 and exactly 2 expected /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/models/Customers_model.php 34

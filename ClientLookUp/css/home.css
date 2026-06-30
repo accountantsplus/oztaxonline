@@ -1,0 +1,43 @@
+.css-toprow.css-contentarea {
+  margin-top: 200px;
+}
+
+.css-contentarea {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .css-toprow.css-contentarea {
+    margin-top: 80px;
+  }
+}
+
+.css-contentarea .thumbnail {
+  text-align: center;
+  border: none;
+  box-shadow: none;
+}
+
+.css-contentarea .thumbnail .caption {
+  color: #004185;
+}
+
+.css-contentarea img.css-top-icons {
+  width: 128px;
+  height: 128px;
+}
+
+/* store css */
+.css-store-area,
+.css-store-thumbnail {
+  background-color: #CDCDCD;
+  margin-bottom: 0;
+}
+
+.css-contentarea .css-store-thumbnail .caption {
+  text-align: left;
+  font-size: 0.8em;
+  color: #495a62;
+}

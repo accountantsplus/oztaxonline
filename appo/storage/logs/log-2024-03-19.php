@@ -1,0 +1,12 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2024-03-19 08:39:08 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 118
+ERROR - 2024-03-19 08:39:08 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 119
+ERROR - 2024-03-19 09:02:04 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 118
+ERROR - 2024-03-19 09:02:04 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 119
+ERROR - 2024-03-19 09:02:04 --> Could not find the language line "zip_code"
+ERROR - 2024-03-19 09:02:44 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 118
+ERROR - 2024-03-19 09:02:44 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 119
+ERROR - 2024-03-19 09:18:27 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 118
+ERROR - 2024-03-19 09:18:27 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 119
+ERROR - 2024-03-19 09:18:27 --> Could not find the language line "zip_code"

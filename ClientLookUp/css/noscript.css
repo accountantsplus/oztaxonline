@@ -1,0 +1,11 @@
+#noscript {
+	display: block;
+	width: 95%;
+	margin: 87px auto 0;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+div.css-contentarea {
+	display: none;
+}

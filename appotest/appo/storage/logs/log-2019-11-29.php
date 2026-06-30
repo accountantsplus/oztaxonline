@@ -1,0 +1,14 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-11-29 00:56:37 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `ea_users` (`first_name`, `last_name`, `email`, `mobile_number`, `phone_number`, `address`, `city`, `state`, `zip_code`, `notes`, `isactive`, `ismain`, `linkedAccount`, `screen_names`, `id_roles`) VALUES ('Skype Tax', 'Northern Territory ', 'Garrtee@policetax.com.au', '0418327096', '0418327096', '', '', '', '', '', 1, 0, Array, '', '2')
+ERROR - 2019-11-29 03:27:02 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `ea_users` (`first_name`, `last_name`, `email`, `mobile_number`, `phone_number`, `address`, `city`, `state`, `zip_code`, `notes`, `isactive`, `ismain`, `linkedAccount`, `screen_names`, `id_roles`) VALUES ('Garryboss', 'Tax', 'Garry2@policetax.com', '0418327097', '0418327096', '', '', '', '', '', 0, 1, Array, '', '2')
+ERROR - 2019-11-29 10:46:20 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 10:47:22 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 823 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34
+ERROR - 2019-11-29 10:48:47 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 10:58:08 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 10:59:53 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 11:00:37 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 11:01:15 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 11:03:46 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 11:04:11 --> Could not find the language line "zip_code"
+ERROR - 2019-11-29 11:16:26 --> Severity: Warning --> Missing argument 2 for Customers_Model::add(), called in /home/accounta/public_html/police/appo/application/controllers/Backend_api.php on line 278 and defined /home/accounta/public_html/police/appo/application/models/Customers_model.php 34

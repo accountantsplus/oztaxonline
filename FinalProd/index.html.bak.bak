@@ -1,0 +1,1186 @@
+<!doctype html>
+<html lang="zxx">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- Required meta tags --><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="../favicon.png" rel="icon" type="image/png" /><!-- Bootstrap CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" /><!-- Animate Min CSS -->
+	<link href="assets/css/animate.css" rel="stylesheet" /><!-- IcoFont CSS -->
+	<link href="assets/css/icofont.min.css" rel="stylesheet" /><!-- Owl Carousel CSS -->
+	<link href="assets/css/owl.carousel.css" rel="stylesheet" /><!-- Owl Theme Default CSS -->
+	<link href="assets/css/owl.theme.default.min.css" rel="stylesheet" /><!-- Magnific Popup CSS -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet" /><!-- Style CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" /><!-- Style CSS -->
+	<link href="assets/css/main.css" rel="stylesheet" /><!-- Responsive CSS -->
+	<link href="assets/css/responsive.css" rel="stylesheet" /><!-- Default Color CSS -->
+	<link href="assets/css/color/color-default.css" rel="stylesheet" /><!-- Color Switcher CSS -->
+	<link href="assets/dist/color-switcher.css" rel="stylesheet" /><!-- custom style  CSS -->
+	<link href="assets/css/custom.css" rel="stylesheet" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<title>PoliceTax - Smarter Tax Solution</title>
+	
+	<style type="text/css">.custom-nav
+      {
+          background-color: rgba(0,0,1,0.5);
+          height: 5vh;
+          margin-top: 8vh;
+      }
+
+.ci-height
+{
+    height: 20vh !important;
+    width: 20vw !important;
+}
+.card
+{
+    height:380px;
+    margin-top: 2.5vh;
+}
+#p1 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffcfc+77,7db9e8+100&1+28,0+66 */
+height: 50vh; 
+padding-top:3vh;
+background:linear-gradient(to right,white 10%, transparent), url("assets/img/car.jpg") no-repeat center; 
+background-size: cover; 
+margin-left: 5vw;
+}
+/* .custom-hr-right
+{
+
+    width: 5vw;
+    height: 3px;
+    border-radius: 5px;
+    background: #002080;
+    margin-right: 2vw;
+} */
+
+.ptb-custom
+{
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    margin-top: 3vw;
+    margin-left: 2vh;
+}
+.action-call
+{
+    color: rgb(31, 121, 211);
+}
+.body
+{
+    font-family:"Montserrat";
+}
+
+.label-container{
+	position:fixed;
+	bottom:11vh;
+	right:7vw;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:10vh;
+	right:2vw;
+	background-color: #4ea8d9;
+/* background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%); */
+
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.float_a{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:28vh;
+	right:2vw;
+    background-color: #ff7400;
+    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.float_b{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:19vh;
+	right:2vw;
+	background: #d11111;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+a.float + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.float:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.navbar-collapse li ul {
+  list-style: none;
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-collapse li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.navbar-collapse a {
+  text-decoration: none;
+  color: #005f5f;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #444;
+  transition: .3s background-color;
+}
+
+.navbar-collapse a:hover {
+  background-color: #fff;
+}
+.nav-item-test a:hover, .nav-item-test a:active {
+    background-color: #6993ff;
+    border-color: #6993ff;
+}
+
+.navbar-collapse a.active {
+  background-color: #fff;
+  color: blue;
+  cursor: default;
+}
+
+/* Sub Menus */
+.navbar-collapse li li {
+  font-size: .8em;
+}
+
+@media screen and (min-width: 650px) {
+    .sub-menu{
+        width:200px !important;
+        line-height: 25px;
+    }
+    
+    .custom-navChild{
+        padding-top:8px;
+    }
+    
+  .navbar-collapse li {
+    width: 100px;
+    border-bottom: none;
+    height: auto;
+    margin-top:11px;
+    line-height: 16px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .navbar-collapse a {
+    border-bottom: none;
+  }
+
+  .navbar-collapse > ul > li {
+    text-align: center;
+  }
+
+  .navbar-collapse > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .navbar-collapse li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .navbar-collapse li:hover ul {
+    display: block;
+  }
+
+  .navbar-collapse li ul li {
+    display: block;
+    width:auto;
+  }
+}
+
+.footer-note{
+    padding-right: 40px;
+    
+}
+.footer-note a{
+    color:white;
+    text-decoration: none;
+}
+
+.description-card a{
+    text-decoration: underline;
+}
+#cd
+{
+    height:40vh;
+}
+	</style>
+</head>
+<body data-offset="70" data-spy="scroll"><!-- Start Preloader -->
+<div class="preloader">
+<div class="loader">
+<div class="spinner">
+<div class="double-bounce1"></div>
+
+<div class="double-bounce2"></div>
+</div>
+</div>
+</div>
+<!-- End Preloader --><!-- Start Navbar Area -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<div class="container-fluid"><a class="navbar-brand" href="https://www.policetax.com.au/Prod"><img src="assets/img/PoliceTax.png" width="200" /> </a><button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler align-right" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"></button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto" style="margin-left: 41% !important;
+    position: absolute;
+    margin-top: -27px;">
+	<li class="nav-item" style="padding-top: 2px;
+    position: absolute;
+    width: 221px;"><a class="nav-link active" href="#home" style="cursor: pointer !important;">1800-819-692</a></li>
+	<li class="nav-item" style="padding-left: 178px;
+    padding-top: 2px;
+    position: absolute;"><a class="nav-link active" href="about.html" style="cursor: pointer !important;">About</a></li>
+	<li class="nav-item" style="padding-left: 258px;padding-top: 2px;"><a class="nav-link active" href="contact.html#c1" style="cursor: pointer !important;">Contact</a></li>
+
+</ul>
+&nbsp;
+
+
+<!-- End Preloader --><!-- Garry above Area -->
+
+
+
+
+
+
+
+
+<ul class="navbar-nav ml-auto" style="    margin-top: 40px;">
+	<li class="nav-item" style="padding-left: 42px;padding-top: 2px;"></li>
+	<li class="nav-item custom-navChild"><a class="nav-link" href="#">Solutions</a>
+	<ul class="sub-menu">
+		
+		<li><a class="nav-link" href="online.html">Online Tax</a></li>
+			<li><a class="nav-link" href="skypevideotax.html">Skype Video Tax</a></li>
+			<li><a class="nav-link" href="NewRecruit.html">New Recruit Tax</a></li>
+			
+		<li><a class="nav-link" href="multiyears.html">Multi Years Late</a></li>
+		<li><a class="nav-link" href="#">Past Poor Refunds</a></li>
+	</ul>
+	</li>
+	<!--<li class="nav-item custom-navChild">
+                                        <a class="nav-link" href="#">Approach</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Our Strategy</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">How it works</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Service Features</a>
+                                            </li>
+                                        </ul>
+                                    </li>-->
+	<li class="nav-item custom-navChild"><a class="nav-link" href="#">Clients</a>
+	<ul class="sub-menu">
+	        <li><a class="nav-link" href="#">New Client Registration</a></li>
+		<li><a class="nav-link" href="#">Testimonials</a></li>
+		<li><a class="nav-link" href="#">Become a Member</a></li>
+		<li><a class="nav-link" href="#">Special Deals</a></li>
+	</ul>
+	</li>
+	<!-- <li class="nav-item custom-navChild"><a class="nav-link" href="#">About</a>
+                                        
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Who we are</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Our staff</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="pricing.html">Pricing</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Our Corp Video</a>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+	<li class="nav-item custom-navChild" style="margin-left: -28px;"><a class="nav-link" href="#">FAQ</a>
+	<ul class="sub-menu">
+		<li><a class="nav-link" href="#">Our Services</a></li>
+			<li><a class="nav-link" href="#">Our Credentials</a></li>
+				<li><a class="nav-link" href="pricing.html" >Our Pricing</a></li>
+		<li><a class="nav-link" href="#">ATO Tax Questions</a></li>
+	</ul>
+	</li>
+	<li class="nav-item custom-navChild" style="margin-left: -28px;"><a class="nav-link" href="#">Resources</a>
+	<ul class="sub-menu">
+		<li><a class="nav-link" href="#">Tax Estimator</a></li>
+		<li><a class="nav-link" href="#">Get Mobile App</a></li>
+		<li><a class="nav-link" href="#">More Resources</a></li>
+	</ul>
+	</li>
+	<li class="nav-item-test" style="padding-left: 14px;width: 160px;"><a class="btn btn-lg btn-secondary" href="pagesofwebsite.html" style="color:white;padding-left: 22px;">website progress</a></li>
+	
+	<!-- <li class="nav-item"><a class="nav-link" href="https://policetax.com.au/appo/">Login</a></li> -->
+</ul>
+</div>
+</div>
+</nav>
+<!-- Start Main Banner Area -->
+
+
+<header>
+<div class="container-fluid" style="padding:0px 0px 0px 0px;    margin-top: 115px;">
+<div class="carousel slide" data-interval="4500" data-ride="carousel" id="carouselExampleIndicators">
+<ol class="carousel-indicators">
+	<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+	<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+	<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+</ol>
+
+<div class="carousel-inner" role="listbox"><!-- Slide One - Set the background image for this slide in the line below -->
+<div class="carousel-item active" style="background-image: url('assets/img/police.jpg')">
+<div class="row">
+<div class="col-md-12">
+<div class="carousel-caption d-none d-md-block">
+<h2 class="display-4" style="color:white;">Largest Police Tax Service In Australia</h2>
+
+<p class="lead">Knowing Police tax is our business</p>
+
+<p class="lead"><b>Get your Free Ebook </b></p>
+
+<form>
+<div class="form-row">
+<div class="col-lg-4 col-md-12"></div>
+
+<div class="col-lg-4 col-md-12">
+<div class="form-group has-error"><input class="form-control" data-error="Please enter your email" id="email-address" placeholder="Email" required="" type="text" />
+<div class="help-block with-errors"></div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-12"><a class="btn btn-primary btn-order-now" href="#">Order now</a></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide Two - Set the background image for this slide in the line below -->
+
+<div class="carousel-item" style="background-image: url('assets/img/women.jpg')">
+<div class="carousel-caption d-none d-md-block">
+<h2 class="display-4">Lodge your tax online. It&#39;s Easy</h2>
+
+<p class="lead">Fast and Convienent. Refunds back in 14 days.</p>
+<a class="btn btn-primary" href="#">Start Now</a></div>
+</div>
+<!-- Slide Three - Set the background image for this slide in the line below -->
+
+<div class="carousel-item" style="background-image: url('assets/img/police2.jpg'); ">
+<div class="carousel-caption d-none d-md-block">
+<h2 class="display-4">We are open for Business</h2>
+
+<p class="lead">Book your appointment online or call us</p>
+<a class="btn btn-primary" href="#">Book Now</a></div>
+</div>
+<a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span class="sr-only" style="color:balck;">Previous</span> </a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"> <span class="sr-only">Next</span> </a></div>
+</div>
+<!-- End Main Banner Area --><!-- Start Features Area -->
+<br>
+<section class="features-area bg-gray ptb-100" id="features" style="padding-top: 20px !important;">
+<div class="container">
+<div class="section-title"><span>Features</span>
+
+<h3>Our Amazing Features</h3>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-3">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/vectorstock_4552351.jpg" />
+<div class="card-body">
+<h5>Online Bookings</h5>
+
+
+<p>Book face to face or Skype tax appointments online. <a href="https://www.policetax.com.au/Prod/appointment.html">Book Now</a></p>
+
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-9 col-md-9">
+<div class="services-slides">
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/australia.jpg" />
+<div class="card-body">
+<h5>Australia Wide</h5>
+
+
+
+<p>Our tax services are used by Police Officers Australia wide.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/serviceguarantee.jpg" />
+<div class="card-body">
+<h5>Our Guarantees</h5>
+
+
+<p>Our aim is to have 100% customer satisfaction.We listen.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/supportdesk.jpeg" />
+<div class="card-body">
+<h5>Help Desk</h5>
+
+<p>We have made it our business to assist on multiple levels.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/tax-resources.jpg" />
+<div class="card-body">
+<h5>Tax Resources</h5>
+
+<p>Make use of our informative tax resources for results.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/refund.jpg" />
+<div class="card-body">
+<h5>Refund Tracking</h5>
+
+<p>Join as a Member and get acess to our tax refund tracking.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/polofficers.PNG" />
+<div class="card-body">
+<h5>Police officers</h5>
+
+<p>Over 3,500 Police officers can't be wrong try our services.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-3">
+   
+<div class="card" id="cd">    <img alt="Card image cap"  class="card-img-top" height="160vh" src="assets/img/multitax.PNG" />
+<div class="card-body">
+    
+   
+  
+    
+<h5>Multitax Options </h5>
+<p>Police Officers have multiple ways to do their tax.  <a href="  https://www.policetax.com.au/Prod/multiTaxOptions.html">Start Now</a></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-9 col-md-9">
+<div class="services-slides">
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/appointment6.jpg" />
+<div class="card-body">
+<h5>Easy to register</h5>
+
+<p>New appointment clients can book times in the cloud.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/online1.jpeg" />
+<div class="card-body">
+<h5>Online tax</h5>
+
+<p>Choose one of our online tax package to start your tax.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/calculator.jpeg" />
+<div class="card-body">
+<h5>Tax Estimator</h5>
+
+
+<p>Get a handle on your expected tax refund level before starting.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/skype1.jpg" />
+<div class="card-body">
+<h5>Book Skype Tax</h5>
+
+
+<p>Use our Skype video tax service-your tax still done face to face.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/freemobile.jpg" />
+<div class="card-body">
+<h5>Free Mobile App</h5>
+
+<p>Download the app-tax receipts wallet/car kms tracking & more.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="card" id="cd"><img alt="Card image cap" class="card-img-top" height="160vh" src="assets/img/joinnow.png" />
+<div class="card-body">
+<h5>Join as a Member</h5>
+
+<p>Their are compelling reasons to become a VIP tax member.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- End Features Area --><!-- Start About Area -->
+
+<section class="about-area ptb-100" id="about">
+<div class="container">
+<div class="section-title"><span>About Us</span>
+
+<h3>We provide best possible services for Police Members around Australia</h3>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> --></div>
+
+<div class="row">
+<div class="col-lg-6 col-md-12">
+<div class="about-content">
+<h3>30 Years Experience - <span>we understand your job</span>.</h3>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+
+<ul class="pull-left">
+	<li>We know Police Job activities</li>
+	<li>Boost your tax refund today</li>
+	<li>Top notch refunds</li>
+	<li>Extensive tax checklists</li>
+</ul>
+
+<ul>
+	<li>Guarantee on services</li>
+	<li>Free tax eBook</li>
+	<li>Customised Online tax</li>
+	<li>All Police occupations</li>
+</ul>
+<a class="btn btn-primary" href="about.html">Read More</a></div>
+</div>
+
+<div class="col-lg-6 col-md-12">
+<div class="about-img"><img alt="about" src="assets/img/about-us.jpg" /></div>
+</div>
+</div>
+</div>
+</section>
+<!-- End About Area -->
+
+<br>
+<br>
+
+<section class="services-area  bg-gray">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12" style="    margin-top: 15px;">
+<div class="join-img"><img alt="img" height="370vh" src="assets/img/policeOccupation_banner.png" /></div>
+
+<div class="img-description">
+<h2 style="margin-top: -273px;color: white;padding-left: 25px;width: 350px;position: absolute;">We handle all types of Police occupations.</h2>
+<h5 style="margin-top: -180px;color: white;padding-left: 25px;width: 350px;position: absolute;">Not ready yet to make a decision ?</h5>
+<p style="margin-top: -150px;color: white;padding-left: 25px;width: 350px;position: absolute;">Stay in the loop with the experts.Subscribe for our tips to prepare your 2019 tax return,straight to your inbox.</p>
+<form style="margin-top: -60px;color: white;width: 350px;position: absolute;">
+	<div class="form-row">
+	<div class="col-lg-2 col-md-12"></div>
+	
+	<div class="col-lg-6 col-md-12">
+	<div class="form-group has-error"><input class="form-control" data-error="Please enter your email" id="email-address" placeholder="Email" required="" type="text" />
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	
+	<div class="col-lg-3 col-md-12"><a class="btn btn-secondary btn-order-now" href="#">Order now</a></div>
+	</div>
+	</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Start Join Area -->
+
+<section class="join-area ptb-100 ">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6">
+<div class="join-content">
+<h3>Try our tax service you will get the result you want.</h3>
+
+<p>We are No 1 in Australia in preparing Police Members tax returns. Join the other 3,500 Police officers who use our tax preparation service Australia wide.</p>
+
+<ul class="accordion">
+	<li class="accordion-item"><a class="accordion-title active" href="javascript:void(0)">How long have you been preparing Police Tax for?</a>
+
+	<p class="accordion-content show">We have been preparing Tax returns for law enforcement officers for the last 30 year so you can be sure we understand your job and how important it is to get the highest legal refund without the hassles of accountants not understanding your work role.</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">What help will you give me doing my tax?</a>
+	<p class="accordion-content">Our firm will effortlessly assist members complete their tax for the 2019 year to get the best possible tax result. Find out more about are tax tools and resources Police Officers can utilise to streamline their bests tax result ever.</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">Which is the best tax service to meet my requirements?</a>
+	<p class="accordion-content">Our firm will effortlessly assist members complete their tax for the 2019 year to get the best possible tax result. Find out more about are tax tools and resources Police Officers can utilise to streamline their bests tax result ever.</p>
+	</li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6" style="margin-top:5%;">
+<p style="margin-left: 32%;">Choose a Tax Service - Click below</p>
+
+<p></p>
+
+<div class="join-img"><img alt="img" height="375vh" src="assets/img/taxServices.jpg" width="850vw" /></div>
+
+<div class="img-words">
+<p style="position: absolute;margin-top: -340px;color: white;margin-left: 38%;">Appointments</p>
+
+<p style="position: absolute;margin-top: -250px;color: white;margin-left: 62%;">Skype Tax</p>
+
+<p style="position: absolute;margin-top: -250px;color: white;margin-left: 28%;">Online Tax</p>
+
+<p style="position: absolute;margin-top: -160px;color: white;margin-left: 40%;">Mobile App Tax</p>
+</div>
+<a class="btn btn-primary" href="#" style="margin-left: 35%;">View Services Summary</a></div>
+</div>
+</div>
+</section>
+<!-- End Join Area -->
+
+<section class="services-area ptb-100 bg-gray" id="services">
+<div class="container">
+<div class="section-title"><span>Services</span>
+
+<h3>Tax services you can depend on</h3>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> --></div>
+
+<div class="row">
+<div class="col-lg-3 col-md-6">
+<div class="single-services-heading" style="text-align:center;">
+<h4>Face To Face</h4>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="single-services-heading" style="text-align:center;">
+<h4>Online/Mobile</h4>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="single-services-heading" style="text-align:center;">
+<h4>Groups</h4>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="single-services-heading" style="text-align:center;">
+<h4>Speciality</h4>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="ci-height" src="assets/img/appointment.jpg" />
+<div class="card-body">
+<h5>1.Appointments</h5>
+
+<div class="description-card"><span>Our appointment tax service takes about 20 minutes. &nbsp;<a href="appointment.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="#" style="margin-top: 10px;">Book Now</a></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="card-img-top ci-height" height="120vh" src="assets/img/online.jpeg" />
+<div class="card-body">
+<h5>2.Online Tax</h5>
+<div class="description-card"><span>Our online tax is easy to use- 5 simple steps to complete.&nbsp;<a href="online.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="#" style="margin-top: 10px;">Start Tax</a></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="card-img-top ci-height" height="110vh" src="assets/img/recruit.jpg" />
+<div class="card-body">
+<h5>3.Police Recruits</h5>
+
+<div class="description-card"><span>We are now recruiting Police recuits we know your claims. &nbsp;<a href="policerecruits.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="" style="margin-top: 10px;">Start Tax</a></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="ci-height" src="assets/img/lateTax.jpg" />
+<div class="card-body">
+<h5>4.Multi Years Late</h5>
+
+<div class="description-card"><span>Take the stress out of late tax returns, try our tax service.&nbsp;<a href="multiLateYears.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="" style="margin-top: 10px;">Start Tax</a></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="card-img-top ci-height" src="assets/img/skype.png" />
+<div class="card-body">
+<h5>5.Skype Video Tax</h5>
+
+<div class="description-card"><span>Remotely completed face to face with a tax adviser.&nbsp;<a href="skypevideotax.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="" style="margin-top: 10px;">Start Tax</a></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="card-img-top ci-height" src="assets/img/app.png" />
+<div class="card-body">
+<h5>6.Mobile App Tax</h5>
+
+<div class="description-card"><span>Get the free Police tax mobile app-it has many features. &nbsp;<a href="mobileapptax.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="" style="margin-top: 10px;">Start Tax</a></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="card-img-top ci-height" src="assets/img/familyTax.jpg" />
+<div class="card-body">
+<h5>7.Family Bundles</h5>
+
+<div class="description-card"><span>Discounts for family members with our Online tax.&nbsp; <a href="familybundles.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="" style="margin-top: 10px;">Start Tax</a></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3">
+<div class="card"><img alt="Card image cap" class="card-img-top ci-height" src="assets/img/rental.jpg" />
+<div class="card-body">
+<h5>8.Rental Property</h5>
+
+<div class="description-card"><span>
+
+
+
+We are negative gearing and rental property tax experts.
+
+
+
+
+&nbsp;<a href="rentalproperties.html">View More</a></span></div>
+<a class="btn btn-outline-primary" href="" style="margin-top: 10px;">Start Tax</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+
+
+
+
+<!-- Start FAQ Area -->
+
+<section class="faq-area ptb-100" id="faq">
+<div class="container">
+<div class="section-title"><span>FAQ</span>
+
+<h3>Frequently Asked Question</h3>
+
+<p>We frequently get asked many questions about tax preparation,here are some of the most popular ones, also we have a plentiful lis of other FAQ View list.</p>
+</div>
+
+<div class="row">
+<div class="col-lg-6 col-md-12">
+<div class="faq">
+<ul class="accordion">
+	<li class="accordion-item"><a class="accordion-title active" href="javascript:void(0)">Can I do my tax remotely with you?</a>
+
+	<p class="accordion-content show">We offer 2 ways to do your tax remotely that is by Online tax or by using our Skype video service which still gets you in front of one of our highly specialsied tax consultants.</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">Can I do my spouse and adult kids tax with you?</a>
+	<p class="accordion-content">Yes, we do tax preparation and lodgement for any of your family members or friends that you refer to our tax practise.</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">How long does my refund take to come back to me?</a>
+	<p class="accordion-content">The turnaround time for you to get to tax refund paid into your nominated bank account direct from the ATO takes about 10 business days.We do not deduct our fees from your refund.</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">Do I need to have receipts to justify my tax deductions?</a>
+	<p class="accordion-content">A deduction is ONLY normally allowable if an expense meets ALL of the following tests:-
+	<br>1. the expense was actually “incurred” before the end of the income year;
+	<br>2. the expense meets the deductibility test –that is, it was incurred in deriving the taxpayer’s current  income  and  it  was  not private, domestic or capital in nature and ; <br>
+	<br>3. the taxpayer can satisfy the stringent substantiation rules –that is,  the  taxpayer  has  written  evidence  of  the  expense  incurred  (if required)..</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">What is an average Police tax refund?</a>
+	<p class="accordion-content">Our average refund last year for Police Officers was $2,157 included standard tax return criteria but was also influenced by Police officers with rental properties.</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">Do you have answers to any more questions?</a>
+	<p class="accordion-content">Yes, we have a more comprehensive and detailed section of questions and answers see more.</p>
+	</li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-6 col-md-12">
+<div class="faq-img"><img alt="faq" src="assets/img/faq.jpg" /></div>
+</div>
+</div>
+</div>
+</section>
+<!-- End FAQ Area -->
+
+
+<br>
+<br>
+
+<!-- Start Fun Facts Area -->
+
+<section class="funfacts-area" style="height:25vh;">
+<div class="container">
+<div class="funFact">
+<h3 style="">Advise me which tax service would suit me best</h3>
+
+<p>Click Here</p>
+</div>
+</div>
+</section>
+<!-- End Fun Facts Area -->
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<section id="HotTaxTip" style="padding-bottom: 100px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6">
+<div class="img" style="margin-top: 18%;"><img alt="img" src="assets/img/kmstaxtip.png" /></div>
+<a class="btn btn-primary" href="#" style="margin-left: 35%;">Access our Km tracking</a></div>
+
+<div class="col-lg-6 col-md-6">
+<div class="about-text mb-0">
+<h2 style="position: absolute;margin-top: -43px;margin-left: 57px;color:#799BFD;">Hot Tax Tip</h2>
+
+<h3>Key Driver to get your best refund outcome</h3>
+
+<p>Getting the most out of the tax refund systems. It&rsquo;s all about car Kms......Kms....Kms......Kms. Get this aspect of your tax deductions right will guarantee you the best possible tax refund.</p>
+
+<div class="faq">
+<ul class="accordion">
+	<li class="accordion-item"><a class="accordion-title active" href="javascript:void(0)">Can I claim my motorcar for work related business?</a>
+
+	<p class="accordion-content show">According to the tax office rules<br />
+	Under the cents per Kilometre method a Police officer can claim a maximum of 5,000 business Kilometre&rsquo;s per car</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">What evidence do I need to make this claim?</a>
+	<p class="accordion-content">You do not need written evidence to show how many Kilometres you have travelled, but we may ask you to show how you worked out your business Kilometre&rsquo;s(such as, calendar or diary records) or <u>better still get the Police Tax Phone App</u>.</p>
+	</li>
+	<li class="accordion-item"><a class="accordion-title" href="javascript:void(0)">What per kilometre rate can I claim?</a>
+	<p class="accordion-content">The rate covers your running expenses and depreciation. If you use the cents per Kilometre method, your claim is based on a set rate for each business Kilometre travelled. The rate is 68 cents per Kilometre from the 2018&ndash;19 income year.</p>
+	</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Start Partner Area -->
+
+<div class="partner-area ptb-100 bg-gray" style="    padding-bottom: 63PX;
+    padding-top: 31px;">
+<div class="container">
+<div class="section-title">
+<h3>You can trust our credentials</h3>
+</div>
+
+<div class="row">
+<div class="certification-slides">
+<div class="col-lg-12 col-md-12 col-sm-12"><a href="#"><img alt="partner" src="assets/img/cert_1.jpg" width="90px" /></a></div>
+
+<div class="col-lg-12 col-md-12"><a href="#"><img alt="partner" src="assets/img/cert_2.jpg" width="90px" /></a></div>
+
+<div class="col-lg-12 col-md-12"><a href="#"><img alt="partner" src="assets/img/cert_3.jpg" width="90px" /></a></div>
+
+<div class="col-lg-12 col-md-12"><a href="#"><img alt="partner" src="assets/img/cert_4.jpg" width="90px" /></a></div>
+
+<div class="col-lg-12 col-md-12"><a href="#"><img alt="partner" src="assets/img/cert_5.jpg" width="90px" /></a></div>
+
+<div class="col-lg-12 col-md-12"><a href="#"><img alt="partner" src="assets/img/cert_6.jpg" width="90px" /></a></div>
+
+<div class="col-lg-12 col-md-12"><a href="#"><img alt="partner" src="assets/img/cert_7.jpg" width="90px" /></a></div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Start Subscribe Area--><!-- Start tax test Area -->
+
+<div class="patner-area ptb-100" id="p1">
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-lg-5 col-md-5 ptb-custom">
+		<h1>Police Officers you deserve better.</h1>
+		<h3>5 ways to get a better tax  <br>    refund for 2019</h3>
+		<br>
+		<form >
+			<div class="form-row">
+			<div class="col-lg-4 col-md-12"></div>
+			
+			<div class="col-lg-6 col-md-12">
+			<div class="form-group has-error"><input class="form-control" data-error="Please enter your email" id="email-address" placeholder="Email" required="" type="text" />
+			<div class="help-block with-errors"></div>
+			</div>
+			</div>
+			
+			<div class="col-lg-2 col-md-12"><a class="btn btn-secondary btn-order-now" href="fiveways.html">Find out how</a></div>
+			</div>
+			</form>
+		</div>
+		</div>
+</div>
+</div>
+<!-- Start tax test Area-->
+
+<div class="label-container">
+<div class="label-text">Feedback</div>
+</div>
+<!-- End Subscribe Area--><!-- Start free guide Area --><!-- <section class="faq-area ptb-100 bg-gray">
+            <div class="container">
+                    <div class="section-title">
+                            <h3>2 free Guides</h3>
+                        </div>
+                    <div class="row">
+                            
+                            <div class="col-md-5">
+                                    <h5>How to Amend Poor Past Years Tax Refunds    <a href="#" class="btn btn-primary">Download Now</a></h5>
+                                  
+                            </div>
+                            <div class="col-md-7">
+                                  
+                                    <h5>How to Reclaim Your Hard Earned Money from The Greedy Tax Man      <a href="#" class="btn btn-primary">Download Now</a></h5>
+                            </div>
+                          </div>
+                
+                
+            </div>
+        </section> --><!-- End free guide Area -->
+        
+<br>
+<br>
+<br>
+<br>
+        <!-- Start Footer Area -->
+
+<footer class="footer-area" style="margin-top: 34px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6">
+<div class="single-footer ">
+<h4 class="logo"><a href="index.html"><span style="text-transform:none;">PoliceTax</span></a></h4>
+
+<p>Want the best possible Police tax refund ever.Consider using our specialised tax service.</p>
+<a class="btn btn-primary" href="#">Let&#39;s do Tax</a></div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="single-footer">
+<h3>Useful Links</h3>
+
+<ul>
+	<li><a href="#">Solutions</a></li>
+	<li><a href="#">Pricing</a></li>
+	<li><a href="#">New client Registration</a></li>
+	<!-- <li><a href="#"><i class="icofont-double-right"></i> Services</a></li> -->
+	<li><a href="#">Blog</a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="single-footer">
+<h3>Support</h3>
+
+<ul>
+
+	<li><a href="#">Resources</a></li>
+	<li><a href="#">Make Enquiry</a></li>
+	<li><a href="#">Request Appointment</a></li>
+	<li><a href="#">Members Login</a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="single-footer">
+<h3>Contact Info</h3>
+
+<ul class="contact-info">
+	<li>
+	<ul class="pull-left">
+		<li>Level 610 Building B, 1-16 Colombo Street, Mitcham, Victoria, 3132</li>
+		<!-- <li> <i class="icofont-phone"></i> 1800 819 692</li>
+                                        <li><i class="icofont-envelope"></i> info@policetax.com.au</li> -->
+		<li>
+		<div class="mapouter">
+		<div class="gmap_canvas"><iframe frameborder="0" height="124" id="gmap_canvas" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=level%20610%20building%20B%201-16%20colombo%20street%20mitcham%20victoria%203132&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="312"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+		<style type="text/css">.mapouter{position:relative;text-align:right;height:124px;width:312px;}
+                                                .gmap_canvas {overflow:hidden;background:none!important;height:100px;width:250px;}
+		</style>
+		</div>
+		</li>
+	</ul>
+	</li>
+	<!-- <li><i class="icofont-google-map"></i> Level 610 Building B</li>
+                                <li> 1-16 Colombo Street</li>
+                                <li> Mitcham, Victoria, 3132</li>
+                                <li><i class="icofont-phone"></i> 1800 819 692</li>
+                                <li><i class="icofont-envelope"></i> info@policetax.com.au</li> -->
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+&nbsp;
+
+<section class="footer-areaMain" id="assistance" style="background-color:#294494;height: 135px;">
+<div class="container" style="padding-top: 11px;">
+<div class="row">
+<div class="col-md-12"><span class="footer-note"><a href="#">Book Appointments</a></span> <span class="footer-note"><a href="#">Online Tax</a></span> <span class="footer-note"><a href="#">Get Mobile App</a></span> <span class="footer-note"><a href="#">Request a Quote</a></span> <!--<span class="footer-note"><a href="#">Our Blog</a></span>--> <span class="footer-note"><a href="#">Contact Us</a></span></div>
+</div>
+</div>
+
+<div class="container" style="padding-top: 11px;font-size:12px;color:white;"><span class="footer-note">Copyright &copy; <script>document.write(new Date().getFullYear());</script></span> <span class="footer-note"><a href="#">Sitemap</a></span> <span class="footer-note"><a href="#">Privacy Policy</a></span> <span class="footer-note"><a href="#">Terms and Conditions</a></span></div>
+</section>
+<!--[ footer ] -->
+
+<div class="footer_sticky_wrapper" style="color: white !important;">
+<div class="footer_sticky_inside  sticky_visible" dir-sticky-footer="sticky_visible" style="    max-height: 60px;">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-2 col-sm-12" id="heyyou"><span><a href="#" style="color:white">1800 819 692</a></span></div>
+
+<div class="col-md-2 col-sm-12" id="heyyou"><span><a href="#" style="color:white">info@policetax.com.au</a></span></div>
+
+<div class="col-lg-4 col-md-12" id="" style="margin-top:10px;"><span><b>GET FREE REPORT:</b> 7 Mistakes Police Officers make doing their tax. &nbsp;&nbsp;<span><a href="#" style="color:white">Download Now</a></span></span></div>
+
+<div class="col-md-1 col-sm-12" id="heyyou"></div>
+
+<div class="col-md-2 col-sm-12" id="" style="    margin-top: 6px;"><span><a class="btn btn-secondary" href="#">Free Tax Checklist</a></span></div>
+</div>
+</div>
+</div>
+</div>
+<!-- End Footer Area --><!-- <div class="go-top"><i class="icofont-arrow-up"></i></div> --><!-- Jquery Min JS --><script src="assets/js/jquery.min.js"></script><!-- Popper Min JS --><script src="assets/js/popper.min.js"></script><!-- Bootstrap Min JS --><script src="assets/js/bootstrap.min.js"></script><!-- Owl Carousel JS --><script src="assets/js/owl.carousel.min.js"></script><!-- Counterup Min JS --><script src="assets/js/jquery.counterup.min.js"></script><!-- Magnific Min JS --><script src="assets/js/jquery.magnific-popup.min.js"></script><!-- Waypoints Min JS --><script src="assets/js/waypoints.min.js"></script><!-- Form Validator Min JS --><script src="assets/js/form-validator.min.js"></script><!-- Contact Form Min JS --><script src="assets/js/contact-form-script.js"></script><!-- ajaxChimp Min JS --><script src="assets/js/jquery.ajaxchimp.min.js"></script><!-- Fox Map JS FILE --><script src="assets/js/axolot-map.js"></script><!-- Main JS --><script src="assets/js/main.js"></script><script>
+            $(document).on("click", ".single-features", function(e){
+                e.preventDefault();
+                var goTo = $(this).attr("attr-goto");
+                console.log(goTo);
+                window.location.href = goTo;
+            });
+            
+            $(".btn-order-now").on("click", function(e){
+                e.preventDefault();
+                var email = $("#email-address").val();
+                
+                if(email != ""){
+                    window.location.href = "https://www.policetax.com.au/Prod/freeEbook?email=" + email;
+                }else{
+                    window.location.href = "https://www.policetax.com.au/Prod/freeEbook";
+                }
+            });
+        </script></header>
+</body>
+</html>

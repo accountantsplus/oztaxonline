@@ -1,0 +1,163 @@
+<html>
+<head>
+    <title>Skype Tax Appointment Details</title>
+</head>
+<body style="font: 13px arial, helvetica, tahoma;">
+    <div class="email-container" style="width: 650px; border: 1px solid #eee;">
+        <div id="header" style="background-color: #3DD481; border-bottom: 4px solid #1A865F;
+                height: 45px; padding: 10px 15px;">
+            <strong id="logo" style="color: white; font-size: 20px;
+                    text-shadow: 1px 1px 1px #8F8888; margin-top: 10px; display: inline-block">
+                    $company_name - Skype Appointment Successfully Confirmed $appointment_isPaid!</strong>
+        </div>
+
+        <div id="content" style="padding: 10px 15px;">
+            <h2>$email_title</h2>
+            <p>$email_message</p>
+
+            <h2>Appointment Details Via Skype tax </h2>
+            <table id="appointment-details">
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Service</td>
+                    <td style="padding: 3px;">$appointment_service</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Provider</td>
+                    <td style="padding: 3px;">$appointment_provider</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Start</td>
+                    <td style="padding: 3px;">$appointment_start_date</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">End</td>
+                    <td style="padding: 3px;">$appointment_end_date</td>
+                </tr>
+            </table>
+
+            <h2>Customer Details</h2>
+            <table id="customer-details">
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Appointment #</td>
+                    <td style="padding: 3px;">$appointment_id</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Name</td>
+                    <td style="padding: 3px;">$customer_name</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Email</td>
+                    <td style="padding: 3px;">$customer_email</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Phone</td>
+                    <td style="padding: 3px;">$customer_phone</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Address</td>
+                    <td style="padding: 3px;">$customer_address</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">State</td>
+                    <td style="padding: 3px;">$customer_state</td>
+                </tr>
+                <tr>
+                    <td class="label" style="padding: 3px;font-weight: bold;">Postcode</td>
+                    <td style="padding: 3px;">$customer_postcode</td>
+                </tr>
+            </table>
+
+            <h2>Skype Appointment Link:</h2>
+            <a href="$appointment_link" style="width: 600px;">$appointment_link</a>
+            <p>If you have not provided us with your BSB or TFN details, please call us at <a href="tel:1800819692">1800 819 692 or complete a short skype online registration </a>.</p>
+            
+            
+            
+            
+            
+            <h2>1.What you need for your  appointment:</h2>
+            <a href="https://www.policetax.com.au/tax-instructions.php" style="width: 600px;" download>Click Here</a>
+            <p>Minimum records to have ready for skype is your Police Group Certificate (for ATO ID Purposes), a recent fortnightly Police Pay slip and your list of your 
+            tax deductions for claiming by main groupings would be handy (download our Police Tax Deductions checklist using the orange button down near the footer 
+            end of our home Page website www.policetax.com.au)
+            </p><br>
+            
+            <h2>2.Engagement of our Skype Tax services as your tax agent</h2>
+            <p>This email also as a confirmation that you are happy to engage our services as your tax agent and recognise that you have given our firm the right to access your <br>
+            electronic records in the ATO Portal for the purposes of preparing your 2019 tax return or any late year multiple tax returns. <br>
+            
+             <h2>3.Our  Tax No-Show Policy & Engagement of our Skype tax services</h2>
+                                        </u></b>
+                                </center>
+                                <p><span style="color:#164eb7; font-weight:bold;">Let us know.</span> If you miss the appointment at least 24 hours before by calling <b>1800 819 692</b> or email us on <b>cpa@policetax.com.au</b>
+                                so that we can give your appointment to another Police Officer who needs it.</p>
+                                <p style="color: #164eb7;">If you missed it! We can email you a nearly completed "draft" tax return (Prepared from your portal information, which you will need to amend and discuss with our staff before we can finalise<br>
+                                and lodge on your behalf. If you do nothing and go elsewhere or proceed to do MyGov Tax you may be charged 50% of our standard fee. You call us on 03 9008 5617 or SMS your name and cancellation request within the 24-Hour notice Period then no charges will apply
+                                </p>
+                                <u>
+                                    <p>By clicking the agree button. you are agreeing the that Accountants Plus Pty Ltd Tax Agent 5596 1005 to do the following:</p>
+                                </u>
+                                <ul>
+                                    <li>You are allowing us to share your confidential information with ATO.For Also Agree that this is a signed electronic authority to be added as a new client<br>
+                                    and to Accountants Plus Pty Ltd Tax Agent 5596 1005 or as an existing returning client to access my ATO Portal Records for the purposes of Completing the 2019 tax return or any earlier years. <br>
+                                    I agree to engage Accountants Plus to complete my tax and lodge my tax to the ATO </li><br> DO NOT PROCEED UNLESS YOU ARE ABSOLUTELY SURE THIS IS WHAT YOU WANT-IF NOT SURE PLEASE RING OUR OFFICE ON 03 9008 5617 FOR CLARIFICATION.
+                                    <li>You are agreeing to our no-show policy. </li>
+            
+            
+            
+           </p>
+            
+            <h2>4.FIRST TIME NEW TAX CLIENTS ONLY-IMPORTANT INSTRUCTIONS:</h2>
+            <p>If you cannot provide us with your TFN and BSB Refund bank account details when making this appointment you must complete a short Skype tax registration by clicking on the link below:<br><br>
+            https://www.policetax.com.au/RegistrationForm?type=skype
+            <br>As A new client if you don’t provide us with your TFN/DOB and BSB Bank refund details we will not be able to give you confirmation <br>
+            to proceed. We need at least 24 hours minimum to get you set up linking our tax agency with your tax credentials and the link to the ATO Portal which we need to prepared and lodge your tax.
+            
+            
+          
+           
+           <h2>5.Punctuality is a Must:</h2>
+            <p>Please be ready 5 minutes earlier than your allotted appointment time. One of our skype tax consultants will call you on your mobile you will be instructed to search for our skype email 
+            address which is customrerservice@policetax.com.au. we will call you via skype for you to accept our skype tax request</p>
+
+            <h2>6.If you are unsure how to use skype call our office the day before for assistance </h2>
+            <p>Please call <a her="tel:1800819692">1800 819 692</a> if unsure of any skype details  </p>
+            
+            
+            
+            
+            <h2>The ATO’s Substantiation Rules</h2>          
+            
+             All Clients are reminded of the need to substantiate all claims.
+            The ATO has provided three rules in determining whether the deduction your claiming is eligible:
+            1.	The taxpayer must have incurred the expense themselves – and not have been reimbursed.
+            2.	The expense must be incurred in gaining or producing assessable income.
+            3.	The claim must comply with the substantiation rules – i.e. all records must be kept.
+
+
+
+
+            Records are usually a receipt from the supplier of the goods or services. You need to keep these for five years from
+            when you lodge your tax return in case we ask you to substantiate your claims
+            Your receipts must show:
+            
+             •	name of the supplier
+             •	amount of expense
+             •	nature of goods and services (noting the specific type of items purchased or expenditure incurred which I am able to personally record up to the date of lodgement of my return where not adequately noted by the supplier)
+             •	date of expense (which I am able to personally record when not noted by the supplier)
+             •	date of the document.
+
+
+            
+        </div>
+
+        <div id="footer" style="padding: 10px; text-align: center; margin-top: 10px;
+                border-top: 1px solid #EEE; background: #FAFAFA;">
+            Powered by
+            <a href="http://easyappointments.org" style="text-decoration: none;">Easy!Appointments</a>
+            |
+            <a href="$company_link" style="text-decoration: none;">$company_name</a>
+        </div>
+    </div>
+</body>
+</html>

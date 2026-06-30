@@ -1,0 +1,270 @@
+html, body {
+  margin: 0;
+}
+
+/* navs */
+.css-navbar {
+  border-radius: 0;
+  background: #004185;
+  background: -webkit-linear-gradient(left top, #004185, #00599D);
+  background: -o-linear-gradient(bottom right, #004185, #00599D);
+  background: -moz-linear-gradient(bottom right, #004185, #00599D);
+  background: linear-gradient(to bottom right, #004185, #00599D);
+}
+
+.css-navbar a {
+  color: #FFF;
+}
+
+.css-navbar .navbar-nav li.active,
+.css-navbar .navbar-nav>.open >a,
+.css-navbar .navbar-nav li a:hover,
+.css-navbar .navbar-nav>.open >a:focus {
+  background-color: #002A57;
+}
+
+.css-navbar .navbar-nav li a:focus {
+  background-color: #6F7669;
+}
+
+.css-navbar .navbar-toggle {
+  border-color: #3A89C9;
+}
+
+.css-navbar .navbar-toggle:hover,
+.css-navbar .navbar-toggle:focus {
+  background-color: #3A89C9;
+}
+
+.css-navbar .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.navbar-brand {
+  padding: 2px 7px;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.navbar-toggle .badge {
+  position: relative;
+}
+
+.navbar-toggle .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.css-brand-text {
+  color: #FFF;
+  margin: 0 10px;
+}
+
+/* content body */
+.css-contentarea {
+  width: 95%;
+  max-width: 1600px;
+  margin: 51px auto 0;
+}
+
+.css-divider {
+  width: 100%;
+  border-top: 1px solid #CDCDCD;
+  margin: 12px auto;
+}
+
+.css-filter {
+  margin: 0 auto;
+}
+
+.css-filterselect .control-label {
+  text-align: left;
+}
+
+.css-swapbuttons {
+  width: 100%;
+  margin: 40px auto 45px;
+  text-align: center;
+}
+
+.css-items-list {
+  text-align: center;
+}
+
+.css-content-right .btn {
+  display: block;
+  float: right;
+}
+
+/* colour-customised buttons */
+.btn.css-btn-police {
+  color: #fff;
+  background-color: #004185;
+  border-color: #00599D;
+}
+.btn.css-btn-police:hover,
+.btn.css-btn-police:focus,
+.btn.css-btn-police:active,
+.btn.css-btn-police.active,
+.open .dropdown-toggle.btn.css-btn-police {
+  color: #fff;
+  background-color: #002A57;
+  border-color: #001730;
+}
+.btn.css-btn-police:active,
+.btn.css-btn-police.active,
+.open .dropdown-toggle.btn.css-btn-police {
+  background-image: none;
+}
+.btn.css-btn-police.disabled,
+.btn.css-btn-police[disabled],
+fieldset[disabled] .btn.css-btn-police,
+.btn.css-btn-police.disabled:hover,
+.btn.css-btn-police[disabled]:hover,
+fieldset[disabled] .btn.css-btn-police:hover,
+.btn.css-btn-police.disabled:focus,
+.btn.css-btn-police[disabled]:focus,
+fieldset[disabled] .btn.css-btn-police:focus,
+.btn.css-btn-police.disabled:active,
+.btn.css-btn-police[disabled]:active,
+fieldset[disabled] .btn.css-btn-police:active,
+.btn.css-btn-police.disabled.active,
+.btn.css-btn-police[disabled].active,
+fieldset[disabled] .btn.css-btn-police.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn.css-btn-police .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+
+/* center text alignment for mobile */
+.css-left-to-center {
+  text-align: left;
+}
+
+.css-right-to-center {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+
+  .css-left-to-center, 
+  .css-right-to-center {
+    text-align: center;
+  }
+
+}
+
+.css-pagination {
+  margin: 0 0 10px;
+}
+
+/*
+ * forms
+*/
+
+/* user detail form */
+.css-userform .control-label {
+  text-align: left;
+}
+
+.css-userform .form-group {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.css-list-left {
+  text-align: left;
+}
+
+.css-item-amount {
+  width: 60px;
+}
+
+/* cart related */
+
+.css-cart-list .badge {
+  background-color: #e00;
+}
+
+.css-cart-badge {
+  color: #FFF;
+  background: #E00;
+}
+
+.css-cart-total {
+  margin: 30px 0 0;
+}
+
+/* sidebar */
+.css-sidebar-title {
+  margin: 24px auto 20px;
+}
+
+/* clearfix */
+.clearfix {
+  clear: both;
+}
+
+/* script disabled */
+#noscript {
+  display: none;
+}
+
+/* temporary */
+.navbar {
+  border-radius: 0;
+}
+.modal-dialog {
+  width: 94%;
+  vertical-align: middle;
+  height: auto;
+  margin: 3%;
+}
+
+.modal-content {
+  width: 100%;
+  height: auto;
+}
+
+.modal-body .row {
+  width: 100%;
+  padding: 0;
+  margin: 0
+}
+
+.border-container {
+	border: 1px solid #ccc;
+}
+
+.border-container .nowrap {
+	white-space: nowrap;
+}
+
+td span {
+	position: relative;
+	display: block;
+	min-height: 25px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}

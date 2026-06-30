@@ -1,0 +1,7 @@
+Police:POL
+Nurses:NUR
+Defense:DEA
+Tradies:TRA
+Teachers:TEA
+Ambulance:AMBO
+FireFighters:FIRE

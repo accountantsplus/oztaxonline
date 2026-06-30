@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "policetax.com.au",
+  "Id": "251a78ed-d967-412c-a322-0f9b8f9ff99e"
+}

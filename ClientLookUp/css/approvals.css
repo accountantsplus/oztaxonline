@@ -1,0 +1,41 @@
+.css-approved-column {
+  position: relative;
+}
+
+.css-items-list .css-approval-success,
+.css-items-table .css-approved-column td.css-approval-success {
+  background-color: #5CB85C;
+  opacity: 0.6;
+}
+
+.css-items-list .css-approval-success {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.css-approval-success p {
+  vertical-align: middle;
+  text-align: center;
+  inline-height: 2.0em;
+  display: block;
+  color: #FFF;
+}
+
+.css-items-table .css-approved-column td.css-approval-success {
+  background-color: #5CB85C;
+  opacity: 0.6;
+}
+
+.css-items-list .css-approval-success p {
+  margin: 50% 0;
+  font-size: 140%;
+}
+
+.css-items-table .css-approval-success p {
+  margin: 3px 0;
+  font-size: 120%;
+}

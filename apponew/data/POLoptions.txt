@@ -1,0 +1,5 @@
+Work Sector:select:compulsory
+Station/Name Locale:text:compulsory
+Rank:select:compulsory
+Branch Type:select:compulsory
+Role Type if applicable:input:optional

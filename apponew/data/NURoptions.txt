@@ -1,0 +1,2 @@
+Position:select:compulsory
+Hospital/Clinic Locale:text:compulsory

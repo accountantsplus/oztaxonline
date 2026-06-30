@@ -1,0 +1,15 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-05-19 03:44:28 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:47:26 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:49:06 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:49:38 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:49:38 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:49:38 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:49:39 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:49:39 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 03:49:39 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 04:02:50 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 23:13:46 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 23:15:47 --> Could not find the language line "zip_code"
+ERROR - 2019-05-19 23:18:44 --> Could not find the language line "zip_code"

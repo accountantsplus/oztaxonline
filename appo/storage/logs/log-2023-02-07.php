@@ -1,0 +1,26 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-02-07 00:02:01 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 00:15:50 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 01:32:42 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 02:38:36 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 02:59:47 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:24 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:25 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:26 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:26 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:27 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:29 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:30 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:31 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:32 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:38 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 04:05:38 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 05:03:35 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 05:08:31 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 05:08:37 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 05:09:07 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 08:00:57 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 15:32:41 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 19:45:20 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2023-02-07 19:45:41 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/system/database/drivers/mysqli/mysqli_driver.php 135

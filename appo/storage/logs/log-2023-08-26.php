@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-08-26 03:46:51 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 118
+ERROR - 2023-08-26 03:46:51 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 119
+ERROR - 2023-08-26 22:47:57 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 118
+ERROR - 2023-08-26 22:47:57 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 119
+ERROR - 2023-08-26 23:35:39 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 118
+ERROR - 2023-08-26 23:35:39 --> Severity: Warning --> Use of undefined constant PRIV_DASHBOARD - assumed 'PRIV_DASHBOARD' (this will throw an Error in a future version of PHP) /var/www/vhosts/accountantsplus.com.au/public_html/police/appo/application/views/backend/header.php 119

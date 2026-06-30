@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Finance</title>
+
+    <!-- <link rel="icon" href="img/favicon.png" type="image/png"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- themefy CSS -->
+    <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
+    <!-- swiper slider CSS -->
+    <link rel="stylesheet" href="vendors/swiper_slider/css/swiper.min.css" />
+    <!-- select2 CSS -->
+    <link rel="stylesheet" href="vendors/select2/css/select2.min.css" />
+    <!-- select2 CSS -->
+    <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="vendors/owl_carousel/css/owl.carousel.css" />
+    <!-- gijgo css -->
+    <link rel="stylesheet" href="vendors/gijgo/gijgo.min.css" />
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
+    <link rel="stylesheet" href="vendors/tagsinput/tagsinput.css" />
+    <!-- datatable CSS -->
+    <link rel="stylesheet" href="vendors/datatable/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="vendors/datatable/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="vendors/datatable/css/buttons.dataTables.min.css" />
+    <!-- text editor css -->
+    <link rel="stylesheet" href="vendors/text_editor/summernote-bs4.css" />
+    <!-- morris css -->
+    <link rel="stylesheet" href="vendors/morris/morris.css">
+    <!-- metarial icon css -->
+    <link rel="stylesheet" href="vendors/material_icon/material-icons.css" />
+
+    <!-- menu css  -->
+    <link rel="stylesheet" href="css/metisMenu.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
+</head>
+<body class="crm_body_bg">
+    
+
+
+<!-- main content part here -->
+ 
+ <!-- sidebar  -->
+ <!-- sidebar part here -->
+
+
+<style>
+
+
+
+
+.wrapper1 {
+          display: grid;
+          grid-template-columns:  1200px;
+        }
+
+
+        
+.wrapper2 {
+          display: grid;
+          grid-template-columns: 300px 300px 300px 300px;
+        }
+
+
+.main_div
+  {
+  text-align:center;
+  background: #00C492;
+  padding:20px; width: 400px;
+  }
+.inner_div
+  {
+  background: #fff;
+  margin-top:20px;
+  height: 100px;
+  }
+.buttons a
+  {
+  font-size: 16px;
+  }
+.buttons a:hover
+  {
+  cursor:pointer;
+  font-size: 16px;
+  }
+
+
+
+
+
+
+/* Steps through setup */
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+}
+
+.container {
+	font-family: 'Lato', sans-serif;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* GrarryWrappers */
+.wrapper1 {
+  display: grid;
+  grid-template-columns: 380px 380px 380px 380px;
+  column-gap: 10px;
+  row-gap: 1em;
+} 
+
+.wrapper2 {
+	display: table-cell;
+	height: 10px;
+	vertical-align: left;
+}
+
+.nav {
+	margin-top: 40px;
+}
+
+.pull-right {
+	float: right;
+}
+
+a, a:active {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999;
+}
+
+/* Breadcrups CSS */
+
+.arrow-steps .step {
+	font-size: 14px;
+	text-align: center;
+	color: #666;
+	cursor: default;
+	margin: 0 3px;
+	padding: 10px 10px 10px 30px;
+	min-width: 180px;
+	float: left;
+	position: relative;
+	background-color: #d9e3f7;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+  transition: background-color 0.2s ease;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: -17px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid #d9e3f7;	
+	z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+	right: auto;
+	left: 0;
+	border-left: 17px solid #fff;	
+	z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+	border: none;
+}
+
+.arrow-steps .step:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step span {
+	position: relative;
+}
+
+.arrow-steps .step span:before {
+	opacity: 0;
+	content: "✔";
+	position: absolute;
+	top: -2px;
+	left: -20px;
+}
+
+.arrow-steps .step.done span:before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease 0.5s;
+	-moz-transition: opacity 0.3s ease 0.5s;
+	-ms-transition: opacity 0.3s ease 0.5s;
+	transition: opacity 0.3s ease 0.5s;
+}
+
+.arrow-steps .step.current {
+	color: #fff;
+	background-color: #23468c;
+}
+
+.arrow-steps .step.current:after {
+	border-left: 17px solid #23468c;	
+}
+
+
+
+
+/* Pretty input fields*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: left;
+  height: 100vh;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2rem;
+}
+.aks-input-row {
+  display: flex;
+  align-items: left;
+  margin-bottom: 1rem;
+  width: 70%;
+  height: auto;
+  position: relative;
+}
+.aks-input-icon-wrap {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+.aks-input-icon-wrap .aks-input[type="text"] {
+  padding-left: 33px;
+}
+.aks-input-icon {
+  position: absolute;
+  left: 10px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7575a0;
+}
+.aks-input-label {
+  margin-left: 0.4rem;
+  cursor: pointer;
+  position: relative;
+}
+.aks-input-wrap .aks-input-label {
+  margin-left: 0rem;
+  margin-bottom: 0.3rem;
+  display: block;
+  font-size: 15px;
+  color: #5e6272;
+}
+.aks-input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 21px;
+  width: 21px;
+  border-radius: 7px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="checkbox"]:hover {
+  border-color: #275efe;
+}
+.aks-input[type="checkbox"]:after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  top: 3px;
+  position: absolute;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="checkbox"]:checked {
+  background: #05f;
+  border: 1px solid #05f;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="checkbox"]:checked:after {
+  -webkit-transform: rotate(43deg);
+  transform: rotate(43deg);
+}
+.aks-input[type="checkbox"]:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+.aks-input[type="checkbox"]:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+
+.aks-input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 21px;
+  width: 21px;
+  border-radius: 9999px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="radio"]:hover {
+  border-color: #275efe;
+}
+.aks-input[type="radio"]:after {
+  content: "";
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  border-radius: 9999px;
+  background: #fff;
+  opacity: 0;
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="radio"]:checked {
+  background: #05f;
+  border: 1px solid #05f;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="radio"]:checked:after {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: 1;
+}
+.aks-input[type="radio"]:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+.aks-input[type="radio"]:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+
+.aks-switch[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 21px;
+  width: 38px;
+  border-radius: 11px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-switch[type="checkbox"]:hover {
+  border-color: #275efe;
+}
+.aks-switch[type="checkbox"]:after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  width: 13px;
+  height: 13px;
+  background: #bbc1e1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  position: absolute;
+  left: 2px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-switch[type="checkbox"]:checked {
+  background: #05f;
+  border: 1px solid #05f;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-switch[type="checkbox"]:checked:after {
+  -webkit-transform: translateX(17px);
+  transform: translateX(17px);
+  background: white;
+}
+.aks-switch[type="checkbox"]:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+.aks-switch[type="checkbox"]:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+
+.aks-input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="text"]:hover {
+  border-color: #275efe;
+}
+.aks-input[type="text"]:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+.aks-input[type="text"]:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+
+.aks-input[type="password"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="password"]:hover {
+  border-color: #275efe;
+}
+.aks-input[type="password"]:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+.aks-input[type="password"]:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+
+.password-show-hide {
+  position: absolute;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+  color: #7575a0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: fit-content;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+.password-show-hide:hover {
+  color: #275efe;
+}
+.password-show-hide:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  color: #275efe;
+}
+
+.aks-select-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.aks-select-arrow {
+  position: absolute;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+select.aks-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  color: #6d6d6d;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+select.aks-input:hover {
+  border-color: #275efe;
+}
+select.aks-input:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+select.aks-input:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+
+.aks-input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 30%;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #275efe;
+  background: #275efe;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="submit"]:hover {
+  border-color: #275efe;
+}
+.aks-input[type="submit"]:focus {
+  box-shadow: 0 0 0 3px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+.aks-input[type="submit"]:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+
+.aks-date-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.aks-date-calender {
+  position: absolute;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+  color: #7575a0;
+  cursor: pointer;
+}
+.aks-date-calender:hover {
+  color: #275efe;
+}
+.aks-input[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.aks-input[type="date"]:hover {
+  border-color: #275efe;
+}
+.aks-input[type="date"]:focus {
+  box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+  border-color: #275efe;
+}
+.aks-input[type="date"]:disabled {
+  background: #f6f8ff;
+  cursor: not-allowed;
+  opacity: 0.9;
+  border-color: #bbc1e1;
+}
+.aks-input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+.aks-input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 5;
+  color: #7575a0;
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar-inverse{
+    padding-top: 10px;
+    background-color:#272c33; 
+}.navbar-inverse {
+  padding-top: 10px;
+  background-color: rgb(0, 23, 128);
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #c8c9ce;
+  font-weight: 400;
+  font-family: Arial;
+  font-size: 15px;
+  text-align: center;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #272c33;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #272c33;
+}
+.fa {
+  font-size: 26px;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.dropdown-menu {
+  margin-left: 10px;
+  background-color: #272c33;
+}
+.dropdown-menu > li > a {
+  padding-bottom: 10px;
+  color: #c8c9ce;
+  width: 180px;
+}
+.dropdown-menu > li > a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.dropdown-toggle {
+  position: relative;
+}
+
+.dropdown-menu:after {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #272c33;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 503px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 723px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 923px;
+  }
+}
+@media (min-width: 1432px) {
+  .container {
+    width: 1170px;
+  }
+}
+body {
+  padding-top: 70px;
+}
+.navbar-fixed-left,
+.navbar-fixed-right {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-left,
+  .navbar-fixed-right {
+    width: 135px;
+    height: 100vh;
+    border-radius: 0;
+  }
+  .navbar-fixed-left .container,
+  .navbar-fixed-left .container-fluid,
+  .navbar-fixed-right .container,
+  .navbar-fixed-right .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    width: auto;
+  }
+  .navbar-fixed-left .navbar-header,
+  .navbar-fixed-right .navbar-header {
+    float: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar-fixed-left .navbar-collapse,
+  .navbar-fixed-right .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+    max-height: none;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav,
+  .navbar-fixed-right .navbar-collapse .navbar-nav {
+    float: none !important;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav > li,
+  .navbar-fixed-right .navbar-collapse .navbar-nav > li {
+    width: 100%;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav > li.dropdown .dropdown-menu,
+  .navbar-fixed-right
+    .navbar-collapse
+    .navbar-nav
+    > li.dropdown
+    .dropdown-menu {
+    top: 0;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav.navbar-right,
+  .navbar-fixed-right .navbar-collapse .navbar-nav.navbar-right {
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    padding-top: 0;
+    margin-left: 150px;
+  }
+  .navbar-fixed-left {
+    right: auto !important;
+    left: 0 !important;
+    border-width: 0 1px 0 0 !important;
+  }
+  .navbar-fixed-left .dropdown .dropdown-menu {
+    left: 100%;
+    right: auto;
+    border-radius: 5px;
+    padding: 25px;
+  }
+  .navbar-fixed-left .dropdown .dropdown-toggle .caret {
+    border-top: 4px solid transparent;
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-right: none;
+  }
+}
+
+.navbar-inverse .navbar-nav>li>a{
+        color: #c8c9ce;
+        font-weight: 400;
+        font-family: Arial;
+    font-size:15px;
+    text-align: center;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #272c33;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #272c33;
+}
+.fa{
+    font-size: 26px;
+}
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}}
+.dropdown-menu {
+   margin-left:  10px;
+   background-color: #272c33;
+}
+.dropdown-menu>li>a {
+    padding-bottom: 10px;
+    color: #c8c9ce;
+    width: 180px;
+ }
+ .dropdown-menu>li>a:hover {
+     background-color: transparent;
+     color: #fff;
+ }
+.dropdown-toggle {
+    position: relative;
+}
+
+.dropdown-menu:after {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 15px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #272c33;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 503px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 723px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 923px;
+  }
+}
+@media (min-width: 1432px) {
+  .container {
+    width: 1170px;
+  }
+}
+body {
+  padding-top: 70px;
+}
+.navbar-fixed-left,
+.navbar-fixed-right {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-left,
+  .navbar-fixed-right {
+    width: 135px;
+    height: 100vh;
+    border-radius: 0;
+  }
+  .navbar-fixed-left .container,
+  .navbar-fixed-left .container-fluid,
+  .navbar-fixed-right .container,
+  .navbar-fixed-right .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    width: auto;
+  }
+  .navbar-fixed-left .navbar-header,
+  .navbar-fixed-right .navbar-header {
+    float: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar-fixed-left .navbar-collapse,
+  .navbar-fixed-right .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+    max-height: none;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav,
+  .navbar-fixed-right .navbar-collapse .navbar-nav {
+    float: none !important;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav > li,
+  .navbar-fixed-right .navbar-collapse .navbar-nav > li {
+    width: 100%;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav > li.dropdown .dropdown-menu,
+  .navbar-fixed-right
+    .navbar-collapse
+    .navbar-nav
+    > li.dropdown
+    .dropdown-menu {
+    top: 0;
+  }
+  .navbar-fixed-left .navbar-collapse .navbar-nav.navbar-right,
+  .navbar-fixed-right .navbar-collapse .navbar-nav.navbar-right {
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    padding-top: 0;
+    margin-left: 150px;
+  }
+  .navbar-fixed-left {
+    right: auto !important;
+    left: 0 !important;
+    border-width: 0 1px 0 0 !important;
+  }
+  .navbar-fixed-left .dropdown .dropdown-menu {
+    left: 100%;
+    right: auto;
+    border-radius: 5px;
+    padding: 25px;
+  }
+  .navbar-fixed-left .dropdown .dropdown-toggle .caret {
+    border-top: 4px solid transparent;
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-right: none;
+  }
+}
+
+
+/*  media*/
+@media screen and (max-width: 768px) {
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+            color: #c8c9ce;
+            text-align: center;
+            width: 95%;
+        }
+        
+}
+</style>
+
+
+
+
+
+
+
+
+
+ <nav class="navbar navbar-inverse navbar-fixed-left">
+    <div class="container">
+
+          
+        
+        <ul class="nav navbar-nav">
+        
+           
+      
+   
+        
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>DashBoard</a></li>
+
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Revenue</a></li>
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Costs</a></li>
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Profit</a></li>
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Cashflow</a></li>
+       
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Employees</a></li>
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Customers</a></li>
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Forecasts</a></li>
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>Balance Sheet</a></li>
+          <li><a href="#"><i class="fa fa-line-chart"></i><br>SetUp</a></li>
+        </ul>
+     
+      </div>
+    </div>
+  </nav>
+
+
+
+ 
+ <!--/ sidebar  -->
+
+
+<section class="main_content dashboard_part">
+        <!-- menu  -->
+    <div class="container-fluid no-gutters">
+        <div class="row">
+            <div class="col-lg-12 p-0">
+                <div class="header_iner d-flex justify-content-between align-items-center">
+                    <div class="sidebar_icon d-lg-none">
+                        <i class="ti-menu"></i>
+                    </div> 
+                      <!-- horizontal arrows -->
+                    <font size="+3">DashBoard SetUp</font>  
+
+<div>
+
+       
+  <div class="aks-input-row">
+    <input class="aks-input" type="radio" id="radio1" name="radio"checked="checked">
+    <label class="aks-input-label" for="radio1">Operations</label>
+        
+        
+        <input class="aks-input" type="radio" id="Misc" name="radio">
+    <label class="aks-input-label" for="radio2">Bal Sheet</label>
+   
+  </div> 
+</div>
+
+
+                        <div class="serach_field-area">
+                            <div class="search_inner">
+                                <form action="#">
+                                    <div class="search_field">
+                                       <input type="text" placeholder="Search here..." >
+                                    </div>
+                                    <button type="submit"> <img src="img/icon/icon_search.svg" alt=""> </button>
+                                </form>
+                            </div>
+                        </div>
+                    <div class="header_right d-flex justify-content-between align-items-center">
+                        <div class="header_notification_warp d-flex align-items-center">
+                            <li>
+                                <a href="#"> <img src="img/icon/bell.svg" alt=""> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="img/icon/msg.svg" alt=""> </a>
+                            </li>
+                        </div>
+                        <div class="profile_info">
+                            <img src="img/client_img.png" alt="#">
+                            <div class="profile_info_iner">
+                                <p>Welcome Profit Right!</p>
+                                <h5>Profit Right</h5>
+                                <div class="profile_info_details">
+                                    <a href="#">My Profile <i class="ti-user"></i></a>
+                                    <a href="#">Settings <i class="ti-settings"></i></a>
+                                    <a href="#">Log Out <i class="ti-shift-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ menu  -->
+
+
+
+
+
+<!------------------------------------------------------------------------------------->
+
+
+     
+
+        <div class="wrapper2">
+          <div>1.
+
+            <!-------------------------Set up1 Business Indentity---------------->
+            
+                          <h3 class="title">Indentity</h3>
+                          
+          
+            
+            
+              <div class="aks-input-row">
+              <input class="aks-input" type="text" id="name" name="name" placeholder="Company Name">
+            </div>
+            
+                <div class="aks-input-row">
+              <input class="aks-input" type="text" id="name" name="name" placeholder="ABN">
+            </div>
+            
+                  <div class="aks-input-row">
+              <input class="aks-input" type="text" id="name" name="name" placeholder="Industry Catergory">
+            </div>
+            
+                    <div class="aks-input-row">
+              <input class="aks-input" type="text" id="name" name="name" placeholder="Business Description">
+            </div>
+            
+                      <div class="aks-input-row">
+              <input class="aks-input" type="text" id="name" name="name" placeholder="Years In Business">
+            </div>
+          
+          
+          <textarea placeholder="Business Address" rows="2" name="comment[text]" id="comment_text" cols="20" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
+          
+          
+            
+            
+          
+          
+          
+          
+          <p> Upload Company Logo:</p>
+          
+          <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+           
+          </form></p></div>
+          <div>2.       
+            <!-------------------------Set up2 Tax Affairs---------------->          
+        
+                    </section>
+       
+                        <h3 class="title">Tax Affairs/Company Debt</h3>
+                        
+                        
+                                   <label>TFN</label> <div class="aks-input-row">
+            <input class="aks-input" type="password" id="pass" name="password" placeholder="TFN">
+          </div>
+        
+                   
+            <!------------------------------Select field BAS Frequency/Type------>       
+                   
+                        <p> <label for="cars">BAS Frequency:</label>
+                        
+                        
+        
+          
+          <div class="aks-input-row">
+            <div class="aks-select-row">
+              <select class="aks-input" name="select" id="select">
+                <option value="Option 1" selected>Monthly</option>
+                <option value="Option 2">Quarterly</option>
+                <option value="Option 3">Yearly</option>
+            
+              </select>
+              
+              
+              <div class="aks-select-arrow"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg> </div>
+            </div>
+          </div>
+        
+        <!--------------------------Input Select end------------------------------>
+                        
+        
+                                 <p> <label for="cars">BAS Type:</label>
+                                 
+                                 
+                                   
+          <div class="aks-input-row">
+            <div class="aks-select-row">
+              <select class="aks-input" name="select" id="select">
+                <option value="Option 1" selected>Cash</option>
+                <option value="Option 2">Accruals</option>
+            
+            
+              </select>
+              
+              
+              <div class="aks-select-arrow"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg> </div>
+            </div>
+          </div>
+        
+        <!--------------------------Input PAYG Instalments----------------------------->
+        
+                        
+                        
+                                        
+          <div class="aks-input-row">
+            <div class="aks-select-row">
+              <select class="aks-input" name="select" id="select">
+                <option value="Option 1" selected>Yes</option>
+                <option value="Option 2">No</option>
+            
+            
+              </select>
+              
+              
+              <div class="aks-select-arrow"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg> </div>
+            </div>
+          </div>
+          
+                             <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Est Coy Tax">
+          </div>
+        
+        <!--------------------------Input Select end------------------------------>           
+           
+              
+                        
+          <!-------------------------Set up2B Debts/Leasing---------------->
+                   
+                               <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Total Bank Debt">
+          </div>
+          
+                               <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Leasing Finance debt">
+          </div>
+        
+        </div>
+          <div>3.  <!-------------------------Set up3 Budgets/Forecasts--------------->          
+
+         <h3 class="title">Budgets/Forecasts</h3>                   <p> <label for="cars">Tax Year</label>
+         
+         
+
+
+<div class="aks-input-row">
+<div class="aks-select-row">
+<select class="aks-input" name="select" id="select">
+ <option value="Option 1" selected>2021</option>
+ <option value="Option 2">2022</option>
+ <option value="Option 3">2023</option>
+ <option value="Option 4">2024</option>
+</select>
+
+
+<div class="aks-select-arrow"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision">
+   <path d="M6 9l6 6 6-6"></path>
+ </svg> </div>
+</div>
+</div>
+
+<!-----------------Input Profit & Loss Items(Expenses-------------------------->
+        
+        
+                    <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Sales for Year">
+</div> 
+
+                   <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Margins %" length="5">
+</div> 
+   
+                    <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="COGS Amt">
+</div>
+                      <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Gross Profit">
+</div>
+
+                        <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="All Expenses">
+</div>
+
+                          <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Expected Profit" readonly>
+</div>
+
+                        <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Cashflow/End Bank bal">
+</div>
+         
+</div>
+          <div>4.    <!-----------Set up4 Expenses for year-by catergory--------------->     
+       
+     <h3 class="title">Expenses by catergory</h3>
+     
+     
+                    
+                    <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="COGS/Materials">
+</div>  
+
+                      <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Admin Costs">
+</div>  
+
+                        <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Admin Costs">
+</div> 
+
+                      <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Finance Costs">
+</div> 
+
+                        <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="occupancy Costs">
+</div> 
+
+    
+                      <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Wages Costs">
+</div>  
+                    <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Sales & Marketing">
+</div>
+
+                      <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Total Operating Costs" readonly>
+</div>
+
+
+                      <div class="aks-input-row">
+<input class="aks-input" type="text" id="name" name="name" placeholder="Capex Costs">
+</div>
+
+</div>
+          <div>5. <!-------------------------Set up5 Balance Sheets--------------->   
+    
+             <h3 class="title">Balance sheet</h3>
+             
+             
+                                           
+                            <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" 
+ placeholder="As at date 30/06....FYE">
+</div>  
+                 <!----------------ASSETS-------------------->
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder=" Current Assets">
+</div>  
+
+                                <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="NC Current Assets">
+</div> 
+
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Total Assets"Readonly>
+</div> 
+              <!---------------Liabilities------------------->
+                                <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Current Liabilities">
+</div> 
+
+            
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="NC Liabilities">
+</div>  
+                            <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Total Liabilities"readonly>
+</div>
+           <!-----------------------Equity---------------->
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="NET WORTH" readonly>
+</div>
+
+
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Liquity Ratio">
+</div>
+
+     
+<!------------------------------------></div>
+
+          <div>6.     
+            <!-------------------------Set up6  Manhours/Productivity---------------->
+            
+                             <h3 class="title">Staff/ManHours</h3>
+                    
+            
+          
+      
+                      
+                                     
+                                     <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" 
+          placeholder="As at date 30/06....FYE">
+        </div>  
+        
+                                       <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" placeholder="Total Staff Numbers">
+        </div>  
+        
+                                         <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" placeholder="Per Hour Rate">
+        </div> 
+        
+                                       <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" placeholder="Expected Wages Bill">
+        </div> 
+        
+                                         <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" placeholder="Total Manhours Avail">
+        </div> 
+      
+                     
+                                       <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" placeholder="Idle Time">
+        </div>  
+                                     <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" placeholder="Efficiency rate">
+        </div>
+        
+                                       <div class="aks-input-row">
+          <input class="aks-input" type="text" id="name" name="name" placeholder="Other 1">
+        </div>
+        
+      </div>
+          <div>7.
+
+            <!-------------------------Set up7 Seasonality---------------->       
+    
+                     <h3 class="title">Seasonality</h3>
+                     
+                     
+                     
+                         
+     
+                     
+                                    
+                                    <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" 
+         placeholder="As at date 30/06....FYE">
+       </div>  
+       
+                                      <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" placeholder="Seasonality by Qtr1">
+       </div>  
+       
+                                        <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" placeholder="Seasonality by Qtr2">
+       </div> 
+       
+                                      <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" placeholder="Seasonality by Qtr3">
+       </div> 
+       
+                                        <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" placeholder="Seasonality by Qtr4">
+       </div> 
+     
+                    
+                                      <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" placeholder="Down Time">
+       </div>  
+                                    <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" placeholder="Holidays">
+       </div>
+       
+                                      <div class="aks-input-row">
+         <input class="aks-input" type="text" id="name" name="name" placeholder="Other 1">
+       </div>
+       </div>
+          <div>8.          
+            <!-------------------------Set up8 Company Goals---------------->              
+                
+                        <h3 class="title">Company Goals</h3>
+                        
+                                       
+                                       
+                                       <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" 
+            placeholder="As at date 30/06....FYE">
+          </div>  
+          
+                                         <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Profit Improvement 5%">
+          </div>  
+          
+                                           <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Expansion  10%">
+          </div> 
+          
+                                         <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Up/Reduce Staff..No's...=">
+          </div> 
+          
+                                           <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Increase Sales 15%">
+          </div> 
+        
+                       
+                                         <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder=
+            "Reduce COGS 2.5%">
+          </div>  
+        
+          
+                                         <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Reduce Overheads 1%">
+          </div>
+          
+                                         <div class="aks-input-row">
+            <input class="aks-input" type="text" id="name" name="name" placeholder="Mergers & Acquisitions">
+          </div></div>
+          <div>9. <!-------------------------Set up9 What If Scenario--------------->                       
+      
+             <h3 class="title">What If Scenarios</h3>
+             
+             
+                                            
+                            
+                            <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" 
+ placeholder="As at date 30/06....FYE">
+</div>  
+
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Sales up 5%">
+</div>  
+
+                                <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Pricing up  10%">
+</div> 
+
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="UpCosts doown 5%">
+</div> 
+
+                                <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Staff Efficiency Up 2.5%">
+</div> 
+
+            
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder=
+ "Reduce COGS 2.5%">
+</div>  
+
+
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Reduce Overheads 1%">
+</div>
+
+                              <div class="aks-input-row">
+ <input class="aks-input" type="text" id="name" name="name" placeholder="Other">
+</div></div>
+          <div>10.
+            <!-------------------------Set up10 Industry bench marks-------->
+                 
+                  <h3 class="title">Industry Benchmarks</h3>
+                  
+                  
+                                  
+                                                 
+                                 
+                                 <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" 
+      placeholder="As at date 30/06....FYE">
+    </div>  
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="1. Revenue Growth">
+    </div>  
+    
+                                     <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="2. Profitability">
+    </div> 
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="3. Product Line Breakdown & Growth">
+    </div> 
+    
+                                     <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="4. Productivity – Revenue per Employee">
+    </div> 
+  
+                 
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder=
+      "5. Functional Role Breakdown">
+    </div>  
+  
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="6. Operating Cost Breakdown">
+    </div>
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="7.Balance Sheet Measures">
+    </div>
+    </div>
+          <div>11
+            <!-------------------------Set up10 Industry bench marks-------->
+                       
+                  <h3 class="title">Products/Services</h3>
+                  
+                              <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" 
+      placeholder="As at date 30/06....FYE">
+    </div>  
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="1. Revenue Growth">
+    </div>  
+    
+                                     <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="2. Profitability">
+    </div> 
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="3. Product Line Breakdown & Growth">
+    </div> 
+    
+                                     <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="4. Productivity – Revenue per Employee">
+    </div> 
+  
+                 
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder=
+      "5. Functional Role Breakdown">
+    </div>  
+  
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="6. Operating Cost Breakdown">
+    </div>
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="7.Balance Sheet Measures">
+    </div>
+    </div>
+          <div>12
+            <!-------------------------Set up10 Industry bench marks-------->
+             
+                  <h3 class="title">Customers</h3>
+                  
+                  
+                                  
+                                                 
+                                 
+                                 <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" 
+      placeholder="As at date 30/06....FYE">
+    </div>  
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="1. Revenue Growth">
+    </div>  
+    
+                                     <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="2. Profitability">
+    </div> 
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="3. Product Line Breakdown & Growth">
+    </div> 
+    
+                                     <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="4. Productivity – Revenue per Employee">
+    </div> 
+  
+                 
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder=
+      "5. Functional Role Breakdown">
+    </div>  
+  
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="6. Operating Cost Breakdown">
+    </div>
+    
+                                   <div class="aks-input-row">
+      <input class="aks-input" type="text" id="name" name="name" placeholder="7.Balance Sheet Measures">
+    </div>
+    </div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+        </div>
+
+
+
+  
+
+
+
+
+<script>
+/**/
+
+jQuery( document ).ready(function() {
+		
+		var back =jQuery(".prev");
+		var	next = jQuery(".next");
+		var	steps = jQuery(".step");
+		
+		next.bind("click", function() { 
+			jQuery.each( steps, function( i ) {
+				if (!jQuery(steps[i]).hasClass('current') && !jQuery(steps[i]).hasClass('done')) {
+					jQuery(steps[i]).addClass('current');
+					jQuery(steps[i - 1]).removeClass('current').addClass('done');
+					return false;
+				}
+			})		
+		});
+		back.bind("click", function() { 
+			jQuery.each( steps, function( i ) {
+				if (jQuery(steps[i]).hasClass('done') && jQuery(steps[i + 1]).hasClass('current')) {
+					jQuery(steps[i + 1]).removeClass('current');
+					jQuery(steps[i]).removeClass('done').addClass('current');
+					return false;
+				}
+			})		
+		});
+
+	})
+
+</script>
+
+
+</body>
+</html>

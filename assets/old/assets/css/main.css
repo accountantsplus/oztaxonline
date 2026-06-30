@@ -1,0 +1,21 @@
+.btn-generals{
+    position: absolute;
+    margin-left: 31%;
+}
+
+.btn-generals a{
+    margin-left: 14px;
+}
+
+.image-banner{
+   
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1383px !important;
+}
+
+.top-nav{
+    margin-top: 10px;
+}

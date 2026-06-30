@@ -1,0 +1,2 @@
+# Large archives — keep them out of git (GitHub rejects >100MB)
+*.zip

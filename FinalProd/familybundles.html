@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="zxx">
+    
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" href="../favicon.png" type="image/png" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Animate Min CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!-- IcoFont CSS -->
+        <link rel="stylesheet" href="assets/css/icofont.min.css">
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <!-- Owl Theme Default CSS -->
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Default Color CSS -->
+        <link rel="stylesheet" href="assets/css/color/color-default.css">
+        <!-- Color Switcher CSS -->
+        <link rel="stylesheet" href="assets/dist/color-switcher.css">
+        <!-- custom style  CSS -->
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>PoliceTax - Smarter Tax Solution</title>
+    <style>
+     .custom-nav
+      {
+          background-color: rgba(0,0,1,0.5);
+          height: 5vh;
+          margin-top: 8vh;
+      }
+.ci-height
+{
+    height: 24vh !important;
+    width: 20vw !important;
+}
+.card
+{
+    height:58vh;
+    margin-top: 2.5vh;
+}
+#p1 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffcfc+77,7db9e8+100&1+28,0+66 */
+height: 45vh; 
+background:linear-gradient(to right,white 15%, transparent), url("assets/img/family.jpg") no-repeat center; 
+background-size: cover; 
+box-shadow: -6px 1px 10px -1px rgba(0,0,0,0.67) 
+}
+
+
+
+.custom-hr-left
+{
+
+    width: 15vw;
+    height: 3px;
+    border-radius: 5px;
+    background: #002080;
+    margin-left: 2vw;
+}
+
+.custom-hr-right
+{
+
+    width: 15vw;
+    height: 3px;
+    border-radius: 5px;
+    background: #002080;
+    margin-right: 2vw;
+}
+
+.custom-h3{
+    margin-left: 6vw;
+    margin-top: 3vh;
+}
+.ptb-custom
+{
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+.action-call
+{
+    color: rgb(31, 121, 211);
+}
+.body
+{
+    font-family:"Montserrat";
+}
+
+.label-container{
+	position:fixed;
+	bottom:11vh;
+	right:7vw;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:10vh;
+	right:2vw;
+	background-color: #4ea8d9;
+/* background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%); */
+
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.float_a{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:28vh;
+	right:2vw;
+    background-color: #ff7400;
+    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.float_b{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:19vh;
+	right:2vw;
+	background: #d11111;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+a.float + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.float:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.navbar-collapse li ul {
+  list-style: none;
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-collapse li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.navbar-collapse a {
+  text-decoration: none;
+  color: #005f5f;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #444;
+  transition: .3s background-color;
+}
+
+.navbar-collapse a:hover {
+  background-color: #fff;
+}
+.nav-item-test a:hover, .nav-item-test a:active {
+    background-color: #6993ff;
+    border-color: #6993ff;
+}
+
+.navbar-collapse a.active {
+  background-color: #fff;
+  color: blue;
+  cursor: default;
+}
+
+/* Sub Menus */
+.navbar-collapse li li {
+  font-size: .8em;
+}
+
+@media screen and (min-width: 650px) {
+    .sub-menu{
+        width:200px !important;
+        line-height: 25px;
+    }
+    
+    .custom-navChild{
+        padding-top:8px;
+    }
+    
+  .navbar-collapse li {
+    width: 100px;
+    border-bottom: none;
+    height: auto;
+    margin-top:11px;
+    line-height: 16px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .navbar-collapse a {
+    border-bottom: none;
+  }
+
+  .navbar-collapse > ul > li {
+    text-align: center;
+  }
+
+  .navbar-collapse > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .navbar-collapse li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .navbar-collapse li:hover ul {
+    display: block;
+  }
+
+  .navbar-collapse li ul li {
+    display: block;
+    width:auto;
+  }
+}
+
+.footer-note{
+    padding-right: 40px;
+    
+}
+.footer-note a{
+    color:white;
+    text-decoration: none;
+}
+
+.description-card a{
+    text-decoration: underline;
+}
+.tabs_item
+{
+margin-left: 2vw;
+}
+#med
+{
+    color:red;
+}
+    </style>
+    </head>
+    
+    <body data-spy="scroll" data-offset="70">
+        <!-- Start Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+        
+        <!-- Start Navbar Area -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://www.policetax.com.au">
+                        <img src="assets/img/PoliceTax.png" width="120" />
+                    </a>
+                    <button class="navbar-toggler align-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item" style="padding-left: 42px;padding-top: 2px;"><a class="nav-link active" href="#home" style="cursor: pointer !important;">
+                                <i class="icofont-home" style="font-size: 25px !important;"></i></a></li>
+                                    <li class="nav-item custom-navChild">
+                                        <a class="nav-link" href="#">Solutions</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Book Appointments</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Online Tax</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Late Tax</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Past Poor Refunds</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item custom-navChild">
+                                        <a class="nav-link" href="#">Approach</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Our Strategy</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">How it works</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Service Features</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item custom-navChild"><a class="nav-link" href="#">Clients</a>
+                                        
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Testimonials</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Become a Member</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Special Deals</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item custom-navChild"><a class="nav-link" href="#">About</a>
+                                        
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Who we are</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Our staff</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Pricing</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Corp Videos</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item custom-navChild"><a class="nav-link" href="#">FAQ</a>
+                                        
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Our services</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">ATO Tax Questions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item custom-navChild"><a class="nav-link" href="#">Resources</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a class="nav-link" href="#">Tax Estimator</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Get Mobile App</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">More resources</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item-test" style="padding-left: 14px;"><a class="btn btn-primary" href="contact.html" style="color:white;padding-left: 13px;">Contact</a></li>
+                                    
+                                    <li class="nav-item"><a class="nav-link active" href="#">
+                                <i class="icofont-search" style="font-size: 25px !important;cursor: pointer !important;"></i></a></li>
+                                    <!-- <li class="nav-item"><a class="nav-link" href="https://policetax.com.au/appo/">Login</a></li> -->
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+        
+
+        </div>
+              <!-- Start Pricing Area-->
+       <section class="vision-area ptb-100" style="margin-top:3vh;">
+            <div class="container-fluid">
+                    <div class="section-title" >
+                            <h3>Tax for Spouses/Partners/Family</h3>
+                        </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="tab">
+                            <ul class="tabs">
+                                    <li><a href="#" style="    width: 91px; ">
+                                                                            <i class="icofont-spreadsheet"></i>
+                                                                            <br>
+                                                                            Overview
+                                                                        </a></li>
+                                                                        
+                                                                        <li><a href="#">
+                                                                            <i class="icofont-library"></i>
+                                                                            <br>
+                                                                            Features
+                                                                        </a></li>
+                                                                        
+                                                                        <li><a href="#">
+                                                                            <i class="icofont-presentation-alt"></i>
+                                                                            <br>
+                                                                            How it works
+                                                                        </a></li>
+                                                                        
+                                                                        <li><a href="#">
+                                                                            <i class="icofont-waiter-alt"></i>
+                                                                            <br>
+                                                                             Registration
+                                                                        </a></li>
+                                                                        
+                                                                        <li><a href="#" style="    width: 91px;
+                                        ">
+                                                                            <i class="icofont-dollar-plus"></i>
+                                                                            <br>
+                                                                           Tax Refunds
+                                                                        </a></li>
+                                                                        
+                                                                        <li><a href="#">
+                                                                            <i class="icofont-email"></i>
+                                                                            <br>
+                                                                            Email this page
+                                                                        </a></li>
+                            </ul>
+    
+                            <div class="tab_content">
+                                    <div class="tabs_item">
+                                        <div class="row">
+                                                <div class="col-lg-12 col-md-12">
+                                                        <div id="p1" >
+                                                            <div class="container-fluid">
+                                                                 <div class="row">
+                                                                         <div class="col-lg-8 col-md-8 ptb-custom">
+                                                                             <hr class="custom-hr-left">
+                                                                                 <h3 class="custom-h3">A family that does great tax  together,stays together. <span class="action-call"> LET's Family!</span></h3>  
+                                                                                 <center><a href="#" class="btn btn-danger">Start Family Tax Now</a></center>
+                                                                                 <hr class="custom-hr-right">
+                                                                    </div>
+                                                            </div>
+                                                             
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="tabs_item">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="tabs_item_content mb-0">
+                                                    <h2>Family Taxation needs</h2>
+                                                    <h3 id ="med">We can do tax returns for spouses or other family members</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                                                    <ul>
+                                                        <li><i class="icofont-ui-check"></i> Creative Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Retina Ready</li>
+                                                        <li><i class="icofont-ui-check"></i> Modern Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Digital Marketing & Branding</li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                    <div class="tabs_item_img">
+                                                        <img src="assets/img/familyTax.jpg" alt="img" width="750wh" height="320vh">
+                                                        <center><a href="#" class="btn btn-danger">Lodge Tax Now</a></center>
+                                                    </div>
+                                                </div>
+                                                
+                                        </div>
+                                    </div>
+    
+                                    <div class="tabs_item">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="tabs_item_content mt-0">
+                                                    <h3>How it works</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                                                    <ul>
+                                                        <li><i class="icofont-ui-check"></i> Creative Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Retina Ready</li>
+                                                        <li><i class="icofont-ui-check"></i> Modern Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Digital Marketing & Branding</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="tabs_item_img">
+                                                    <img src="assets/img/online3.jpg" alt="img" width="750wh" height="320vh">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="tabs_item">
+                                        <div class="row">
+                                           
+                                            
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="tabs_item_content mb-0">
+                                                    <h3>Registration</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                                                    <ul>
+                                                        <li><i class="icofont-ui-check"></i> Creative Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Retina Ready</li>
+                                                        <li><i class="icofont-ui-check"></i> Modern Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Digital Marketing & Branding</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                    <div class="tabs_item_img">
+                                                        <img src="assets/img/online4.jpg" alt="img" width="750wh" height="320vh">
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="tabs_item">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="tabs_item_content mt-0">
+                                                    <h3>Development</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                                                    <ul>
+                                                        <li><i class="icofont-ui-check"></i> Creative Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Retina Ready</li>
+                                                        <li><i class="icofont-ui-check"></i> Modern Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Digital Marketing & Branding</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="tabs_item_img">
+                                                    <img src="assets/img/taxrefund.jpg" alt="img" width="750wh" height="320vh">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="tabs_item">
+                                        <div class="row">
+                                           
+                                            
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="tabs_item_content">
+                                                    <h3>Marketing</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                                                    <ul>
+                                                        <li><i class="icofont-ui-check"></i> Creative Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Retina Ready</li>
+                                                        <li><i class="icofont-ui-check"></i> Modern Design</li>
+                                                        <li><i class="icofont-ui-check"></i> Digital Marketing & Branding</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                    <div class="tabs_item_img">
+                                                        <img src="assets/img/online6.jpg" alt="img" width="750wh" height="320vh">
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+            <!-- End Pricing Area -->
+    
+        <!-- Start Footer Area -->
+        <footer class="footer-area" style="margin-top: 34px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer ">
+                            <h4 class="logo"><a href="index.html"><span style="text-transform:none;">PoliceTax</span></a></h4>
+                            <p>Want the best possible Police Tax refund ever. Let's do Tax</p>
+                            <a href="#" class="btn btn-primary">Let's do Tax</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li><a href="#"><i class="icofont-double-right"></i> Solutions</a></li>
+                                <li><a href="#"><i class="icofont-double-right"></i> Pricing</a></li>
+                                <li><a href="#"><i class="icofont-double-right"></i> New client Registration</a></li>
+                                <!-- <li><a href="#"><i class="icofont-double-right"></i> Services</a></li> -->
+                                <li><a href="#"><i class="icofont-double-right"></i> Blog</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer">
+                            <h3>Support</h3>
+                            <ul>
+                                <li><a href="#"><i class="icofont-double-right"></i> Free Ebook</a></li>
+                                <li><a href="#"><i class="icofont-double-right"></i> Resources</a></li>
+                                <li><a href="#"><i class="icofont-double-right"></i> Make Enquiry</a></li>
+                                <li><a href="#"><i class="icofont-double-right"></i> Request an ppointment</a></li>
+                                <li><a href="#"><i class="icofont-double-right"></i> Members Login</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-footer">
+                            <h3>Contact Info</h3>
+                            <ul class="contact-info">
+                                <li>
+                                    <a href="https://www.facebook.com/policetax/" class="icofont-facebook" style="    font-size: 25px;
+    position: absolute;
+    margin-left: -23px;"></a>
+                                    <a href="https://twitter.com/policeTaxAu" class="icofont-twitter" style="    font-size: 25px;
+    position: absolute;
+    margin-left: 16px;"></a>
+                                    <a href="https://www.pinterest.com.au/policetaxinfo/" class="icofont-pinterest" style="    font-size: 25px;
+    position: absolute;
+    margin-left: 50px;"></a>
+                                    <a href="https://www.linkedin.com/company/police-tax" class="icofont-linkedin" style="    font-size: 25px;
+    position: absolute;
+    margin-left: 96px;"></a>
+                                    <a href="" class="icofont-skype" class="icofont-linkedin" style="    font-size: 25px;
+    position: absolute;
+    margin-left: 145px;"></a>
+                                    <a href="https://plus.google.com/109895588320691959918" class="icofont-email" style="    font-size: 25px;
+    margin-left: 195px;"></a>
+                                </li>
+                                <ul class="pull-left">
+                                        <li><i class="icofont-google-map"></i> Level 610 Building B,1-16 Colombo Street,Mitcham, Victoria, 3132</li>
+                                        <!-- <li> <i class="icofont-phone"></i> 1800 819 692</li>
+                                        <li><i class="icofont-envelope"></i> info@policetax.com.au</li> -->
+                                        <li><div class="mapouter"><div class="gmap_canvas"><iframe width="312" height="124" id="gmap_canvas" src="https://maps.google.com/maps?q=level%20610%20building%20B%201-16%20colombo%20street%20mitcham%20victoria%203132&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:124px;width:312px;}
+                                                .gmap_canvas {overflow:hidden;background:none!important;height:100px;width:250px;}</style></div></li>
+                                    </ul>
+                             
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        <br>
+        <section class="footer-areaMain" id="assistance" style="background-color:#294494;height: 135px;">
+            <div class="container" style="padding-top: 11px;">
+                <div class="row">
+                    <div class="col-md-12" >
+                       <span class="footer-note"><a href="#">Book Appointments</a></span>
+                       <span class="footer-note"><a href="#">Online Tax</a></span>
+                       <span class="footer-note"><a href="#">Get Mobile App</a></span>
+                       <span class="footer-note"><a href="#">Request a Quote</a></span>
+                       <span class="footer-note"><a href="#">Contact Us</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding-top: 11px;font-size:12px;color:white;">
+               <span class="footer-note">Copyright &copy; <script>document.write(new Date().getFullYear());</script></span>
+               <span class="footer-note"><a href="#">Sitemap</a></span>
+               <span class="footer-note"><a href="#">Privacy Policy</a></span>
+               <span class="footer-note"><a href="#">Terms and Conditions</a></span>
+            </div>
+             
+        </section>
+        
+        <!--[ footer ] -->
+  <div class="footer_sticky_wrapper" style="color: white !important;">
+      <div class="footer_sticky_inside  sticky_visible" dir-sticky-footer="sticky_visible" style="    max-height: 60px;">
+        <div class="container-fluid">
+         <div class="row">
+                    <div id="heyyou" class="col-md-2 col-sm-12">
+                            <span ><i class="icofont-phone-circle"></i><a href="#" class=""  style="color:white"> 1800 819 692</a></span>   
+                    </div>
+                    <div id="heyyou" class="col-md-2 col-sm-12">
+                            <span ><a href="#" class=""  style="color:white"> info@policetax.com.au</a></span>
+                     </div>
+                        
+                    <div class="col-lg-4 col-md-12" id="" style="margin-top:10px;">
+                        <span><b>GET FREE REPORT:</b> 7 Mistakes Police Officers make doing their tax. &nbsp;&nbsp;<span><a class=""  style="color:white" href="#">Download Now</a></span></span>
+                    </div>
+                    <div id="heyyou" class="col-md-1 col-sm-12">
+                     </div>
+                    <div id="" class="col-md-2 col-sm-12" style="    margin-top: 6px;">
+                            <span ><a href="#" class="btn btn-secondary"> Free Tax Checklist</a></span>
+                     </div>
+        </div>
+      </div>
+      </div>
+       </div> 
+       </div> 
+        <!-- End Footer Area -->
+
+        <!-- <div class="go-top"><i class="icofont-arrow-up"></i></div> -->
+        
+        <!-- Jquery Min JS -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- Popper Min JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap Min JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- Counterup Min JS -->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!-- Magnific Min JS -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Waypoints Min JS -->
+        <script src="assets/js/waypoints.min.js"></script>
+        <!-- Form Validator Min JS -->
+        <script src="assets/js/form-validator.min.js"></script>
+        <!-- Contact Form Min JS -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- ajaxChimp Min JS -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+		<!-- Fox Map JS FILE -->
+        <script src="assets/js/axolot-map.js"></script>
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+        <script>
+            $(document).on("click", ".single-features", function(e){
+                e.preventDefault();
+                var goTo = $(this).attr("attr-goto");
+                console.log(goTo);
+                window.location.href = goTo;
+            })
+        </script>
+    </body>
+</html>

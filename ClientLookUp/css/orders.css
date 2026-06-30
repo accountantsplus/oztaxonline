@@ -1,0 +1,43 @@
+.css-searchform {
+  margin: 22px 0 35px;
+}
+
+.css-search-standard,
+.css-search-advanced,
+.css-search-submit {
+  width: 100%;
+}
+
+.css-search-toggle,
+.css-search-standard,
+.css-search-advanced,
+.css-search-submit {
+  margin: 0 auto 10px;
+}
+
+.css-sidebar-box {
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+}
+
+.css-cart-list li {
+  width: 233px;
+}
+
+.css-cart-controls {
+  display: block;
+}
+
+.css-sort {
+  color: #333;
+}
+
+.css-sort-active {
+  color: #F00;
+}
+
+table {
+    text-align:center;
+	word-break: break-all
+}
