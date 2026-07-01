@@ -961,6 +961,7 @@ body{
 
 <?php if ($autoDownloadChecklist): ?>
 <script>
+fbq('track', 'Lead');   // fresh arrival from a validated Stage-1 submit, once
 // Auto-start the free checklist download once on arrival from the lead page.
 (function () {
     var url = <?php echo json_encode($ls2_download_link); ?>;

@@ -627,7 +627,6 @@ button:hover{
 
             <?php if ($success): ?>
                 <div class="success"><?= htmlspecialchars($success) ?></div>
-                <script>fbq('track', 'Lead');</script>
             <?php endif; ?>
 
             <?php if ($error): ?>
