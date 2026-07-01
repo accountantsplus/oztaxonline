@@ -232,6 +232,24 @@ P.S. Every year we see Australians miss legitimate deductions simply because the
 <head>
 <meta charset="UTF-8">
 
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2200735990663030');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2200735990663030&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
 <title>Oz Tax Refund Checklist | Download Free Copy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -609,6 +627,7 @@ button:hover{
 
             <?php if ($success): ?>
                 <div class="success"><?= htmlspecialchars($success) ?></div>
+                <script>fbq('track', 'Lead');</script>
             <?php endif; ?>
 
             <?php if ($error): ?>
