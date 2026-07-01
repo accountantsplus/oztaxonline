@@ -95,7 +95,11 @@ generate images — prompts only.
 Links to put on each site: `https://www.policetax.com.au/express_tax?brand=<key>`
 Debug: append `&ptxdebug=1` to see resolved brand.
 
-### `$PROFILES` array — **7 brands**: police, nurses, firefighters, ambos, teachers, defence, tradies.
+### `$PROFILES` array — **8 brands**: police, nurses, firefighters, ambos, teachers, defence, tradies, oztax.
+`oztax` added 2026-06-30 (navy/orange theme, generic deduction labels) + wired into the
+HTTP_HOST and referer maps (`oztaxonline` → `oztax`). Link: `?brand=oztax`. Backend untouched,
+so it flows into the leads dashboard + scheduler like every sister. Pending images in
+`police/images/`: `oztax-logo.png`, `oztax-budgetbuster.png`, `oztax-support.png` (user doing).
 Each profile: name, logo (`images/<brand>-logo.png`), theme (header/accent/button), price,
 phone, deduction `labels`, donation tooltip, hero_images.
 
