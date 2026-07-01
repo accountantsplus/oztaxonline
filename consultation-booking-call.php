@@ -837,8 +837,7 @@ body{
         </div>
 
         <div class="appointment-side">
-            <!-- ponytail: placeholder appointment image (PoliceTax-hosted), swap for an Oz Tax version when ready -->
-            <img src="https://www.policetax.com.au/images/GarryWithPolice.png" alt="Oz Tax appointment with Garry Angus" class="main-image">
+            <img src="images/GarryWithOztax.png" alt="Oz Tax appointment with Garry Angus" class="main-image">
 
             <div class="side-panel">
                 <div class="side-pill">
@@ -919,8 +918,7 @@ body{
             </ul>
         </div>
 
-        <!-- ponytail: placeholder image (PoliceTax-hosted), swap for an Oz Tax version when ready -->
-        <img src="https://www.policetax.com.au/images/WhyChoose%20PolicetaxImage.png" alt="Oz Tax Online specialist appointment" class="secondary-image">
+        <img src="images/WhyChooseOztaxImage.png" alt="Oz Tax Online specialist appointment" class="secondary-image">
 
     </div>
 </section>

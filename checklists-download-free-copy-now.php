@@ -601,8 +601,7 @@ button:hover{
 <section class="main-section" id="download-free-copy-now">
     <div class="container main-grid">
 
-        <!-- ponytail: placeholder checklist image (PoliceTax-hosted), swap for an Oz Tax version when ready -->
-        <img src="https://www.policetax.com.au/images/PolicetaxChecklistDownload.png" alt="Oz Tax Refund Checklist" class="checklist-image">
+        <img src="images/OztaxonlineChecklistDownload.png" alt="Oz Tax Refund Checklist" class="checklist-image">
 
         <div class="form-card">
             <h2>Download Your Free Copy Now</h2>
