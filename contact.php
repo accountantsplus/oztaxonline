@@ -527,7 +527,7 @@ require_once __DIR__ . '/config.php';
                         <a class="contact-button contact-button--primary" href="tel:1800819692">
                             <i class="ti ti-phone" aria-hidden="true"></i> Call 1800 819 692
                         </a>
-                        <a class="contact-button contact-button--secondary" href="https://www.policetax.com.au/apponew/index.php">
+                        <a class="contact-button contact-button--secondary" href="https://www.policetax.com.au/apponew/index.php?industry=OTH">
                             <i class="ti ti-calendar-check" aria-hidden="true"></i> Book appointment
                         </a>
                     </div>

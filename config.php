@@ -68,7 +68,7 @@ $site = [
         'highlight'     => 'Online Tax Returns',
         'body'          => 'Practical tax support for professionals and individuals across Australia who want to claim correctly, maximise eligible deductions and lodge online with confidence.',
         'primary_cta'   => ['label' => 'Start Online Tax',  'url' => 'https://www.policetax.com.au/TaxTest'],
-        'secondary_cta' => ['label' => 'Book With Garry',   'url' => 'https://www.policetax.com.au/apponew/index.php'],
+        'secondary_cta' => ['label' => 'Book With Garry',   'url' => 'https://www.policetax.com.au/apponew/index.php?industry=OTH'],
         'stats' => [
             ['value' => '48+',            'label' => 'Years Experience'],
             ['value' => '10,000+',        'label' => 'Clients Australia-wide'],
@@ -91,7 +91,7 @@ $site = [
                 'title'      => 'Book With Garry',
                 'text'       => 'Best for salary packaging, rental property income, multi-year late returns or more complex tax matters.',
                 'link_label' => 'Book Appointment',
-                'url'        => 'https://www.policetax.com.au/apponew/index.php',
+                'url'        => 'https://www.policetax.com.au/apponew/index.php?industry=OTH',
             ],
             [
                 'title'      => 'Tax Health Check',
@@ -135,7 +135,7 @@ $site = [
 
     /* ── Header navigation URLs ────────────────────────────────────────────── */
     'header' => [
-        'booking_url'         => 'https://www.policetax.com.au/apponew/index.php',
+        'booking_url'         => 'https://www.policetax.com.au/apponew/index.php?industry=OTH',
         'express_tax_url'     => 'https://www.policetax.com.au/express_tax?brand=oztax',
         'tax_test_url'        => 'https://www.policetax.com.au/TaxTest',
         'contact_url'         => '/contact.php',
@@ -162,7 +162,7 @@ $site = [
                 'note'  => 'For more complex tax matters',
                 'desc'  => 'Book a time to discuss deductions, salary packaging, late returns or investment property tax.',
                 'price' => '$230',
-                'url'   => 'https://www.policetax.com.au/apponew/index.php',
+                'url'   => 'https://www.policetax.com.au/apponew/index.php?industry=OTH',
             ],
         ],
         'quick_links_heading' => 'Tax Resources',
