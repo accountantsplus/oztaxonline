@@ -176,7 +176,7 @@ $site = [
         'cta_url'        => 'https://www.policetax.com.au/TaxTest',
         'review_heading' => 'Online Tax Specialists for Australians',
         'review_body'    => 'Part of the Accountants Plus Group, supporting clients with specialist online tax services.',
-        'google_review_url' => '',
+        'google_review_url' => 'https://g.page/r/CVxczrmeC11QEAE/review',
         'legal' => [
             ['type' => 'text', 'label' => 'Part of the Accountants Plus Group of Companies'],
             ['type' => 'text', 'label' => 'Tax Agent No. 55961005'],
